@@ -1,0 +1,24 @@
+{% extends "layout.html" %}
+{% block content %}
+<article class="media content-section">
+          <div class="media-body">
+           <div class="article-metadata">
+              <a class="mr-2" href="#">Flask Site Admin</a>
+              <small class="text-muted">Last Updated 8/9/2020</small>
+            </div>
+            <h2><a class="article-title" href="#">Upload New Chat Intents File</a></h2>
+            <p class="article-content">Here we have an example of file submission and model retrain functionality. Simply
+                                       Choose the data you wish to upload and our tools will handle the rest. We will take in
+                                      the new data Intents and fully retrain the whole model. This should be a json file matching 
+                                      the current intents file pattern with the examples provided. NOTE retraining make take a few minutes</p>
+          <br/>
+          <br/>
+          </div>
+</article>
+    <form action = "http://localhost:5000/uploader" method = "POST"
+         enctype = "multipart/form-data">
+         <input type = "file" name = "file" />
+         <input type = "submit"/>
+    </form>
+{% endblock content %}
+

@@ -1,0 +1,2 @@
+model_checkpoint_path: "/Users/micintro/Desktop/ChatBot/Mad-Chatter/Matts Work/Final Product/Chat_Bot_API/api/notebooks/model_data/model.tflearn"
+all_model_checkpoint_paths: "/Users/micintro/Desktop/ChatBot/Mad-Chatter/Matts Work/Final Product/Chat_Bot_API/api/notebooks/model_data/model.tflearn"

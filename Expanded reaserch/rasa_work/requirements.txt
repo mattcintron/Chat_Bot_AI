@@ -1,0 +1,6 @@
+rasa
+spacy
+#spacy download en
+#spacy download en_core_web_sm
+tensorflow==2.3.4
+flask

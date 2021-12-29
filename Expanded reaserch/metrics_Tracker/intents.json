@@ -1,0 +1,38 @@
+{"intents": [
+        {"tag": "greeting",
+         "patterns": ["Hi", "How are you", "Is anyone there?", "Hello", "Good day", "Whats up"],
+         "responses": ["Hello!", "Good to see you again!", "Hi there, how can I help?"],
+         "context_set": ""
+        },
+        {"tag": "goodbye",
+         "patterns": ["cya", "See you later", "Goodbye", "I am Leaving", "Have a Good day"],
+         "responses": ["Sad to see you go :(", "Talk to you later", "Goodbye!"],
+         "context_set": ""
+        },
+        {"tag": "what",
+         "patterns": ["what are you", "who are you", "what do you do", "what is your purpose", "what is this"],
+         "responses": ["I am USCIS chat bot for handeling questions and customer service", "I am a full AI chat bot for USCIS"],
+         "context_set": ""
+        },
+        {"tag": "USCIS",
+         "patterns": ["what is USCIS", "USCIS dose what?", "whats USCIS do?"],
+         "responses": ["U.S. Citizenship and Immigration Services is an agency of the United States Department of Homeland Security that administers the country's naturalization and immigration system"],
+         "context_set": ""
+        },
+        {"tag": "DACA",
+         "patterns": [   "What is purpose of DACA?", "What is deferred action?", "What is DACA?"],
+         "responses": [ "Under existing regulations, an individual whose case has been deferred is eligible to receive employment authorization for the period of deferred action, provided he or she can demonstrate an economic necessity for employment. DHS", "The purpose of DACA is to protect eligible immigrant youth who came to the United States when they were children from deportation."],
+         "context_set": ""
+        },
+        {"tag": "DACA_DETAIL",
+         "patterns": ["Why is DACA ending?","Why is DACA phasing out" , "How can I get more DACA information?", "Frequently asked DACA questions"],
+         "responses": ["Taking into consideration the federal court rulings in ongoing litigation, and the September 4, 2017 letter from the Attorney General, it is clear that program should be terminated. As such, the Acting Secretary of Homeland Security rescinded the June 15, 2012 memorandum establishing the DACA program. Please see the Attorney General’s letter and the Acting Secretary of Homeland Security’s memorandum for further information on how this decision was reached.", "You can get More information in the URL (https://www.dhs.gov/news/2017/09/05/frequently-asked-questions-rescission-deferred-action-childhood-arrivals-daca)!"],
+         "context_set": ""
+        },
+        {"tag": "hours",
+         "patterns": ["when are you open", "what are your hours", "hours of operation", "what is your availability"],
+         "responses": ["We are open 7am-4pm Monday-Friday!"],
+         "context_set": ""
+        }
+   ]
+}

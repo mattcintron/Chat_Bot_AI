@@ -1,0 +1,2284 @@
+{
+    "intents": [
+        {
+            "tag": "Q0",
+            "patterns": [
+                "Trainee cannot access CCO Learning",
+	            "CCO Learning Access",
+                "A CSR in my class cannot access their CCO Learning ",
+                "A CSR in my class cannot get into their CCO Learning. ",
+                "A CSR in my class cannot log into their CCO Learning ",
+                "A participant in my class cannot access their CCO Learning ",
+                "A participant in my class cannot get into their CCO Learning. ",
+                "A participant in my class cannot log into their CCO Learning ",
+                "A trainee in my class cannot access their CCO Learning. ",
+                "A trainee in my class cannot get into their CCO Learning.  ",
+                "A trainee in my class cannot log into their CCO Learning. ",
+                "How do I submit a ticket to report my trainee in class cannot get into CCO Learning? ",
+                "Who do I reach out to if a trainee cannot access CCO Learning?"
+            ],
+            "responses": [
+                "Refer to [IT Service Desk] (https://itservicedesk.maximus.com/CherwellPortal/IT?_=422bffd2) to complete and submit a ticket reporting CCO Learning issue. "
+            ],
+            "context_set": ""
+        },
+        {
+            "tag": "Q1",
+            "patterns": [
+                "Trainee cannot access Clear2Work Health Assessment.",
+	            "Clear2Work Access",
+                "A CSR in my class locked themselves out of their application.  How will they complete the daily health assessment? ",
+                "How to handle the clear2work app if a trainee gets locked out of the app?",
+                "One of my new hires is locked out of the Health Assessment application. Who should I notify to get them unlocked? ",
+                "One of my participants is locked out of the Health Assessment application. Who should I notify to get them unlocked? ",
+                "One of my trainees is locked out of the Health Assessment application. Who should I notify to get them unlocked? ",
+                "Who do I notify if one of my trainees is locked out of their app.?"
+            ],
+            "responses": [
+                "The trainee will complete the Verbal Health Assessment at Security posted at the Employee Entrance and the Trainer will report the issue to their Training Manager to report the issue to the proper Point of Contact at the Local Site and the Site's Senior Manager."
+                ],
+            "context_set": ""
+        },
+        {
+            "tag": "Q2",
+            "patterns": [
+                "Absent or terminated trainee requires timecard update.",
+				"How to update timecard.", 
+				"A CSR quit but their timecard is wrong.  How can I get their timecard corrected? ",
+                "A CSR resigned but their timecard is wrong.  How can I get their timecard corrected? ",
+                "A CSR resigned but their timecard is wrong.  How can I get their timecard fixed? ",
+                "A CSR quit but their timecard is wrong.  How can I get their timecard fixed? ",
+                "A New Hire quit, but their timecard is wrong.   How can I get their timecard corrected? ",
+                "A New Hire quit, but their timecard is wrong.  How can I get their timecard fixed? ",
+                "A New Hire resigned, but their timecard is wrong.   How can I get their timecard corrected? ",
+                "A New Hire resigned, but their timecard is wrong.  How can I get their timecard fixed? ",
+                "A participant quit, but their timecard is wrong.   How can I get their timecard corrected? ",
+                "A participant quit, but their timecard is wrong.  How can I get their timecard fixed? ",
+                "A participant resigned, but their timecard is wrong.   How can I get their timecard corrected? ",
+                "A participant resigned, but their timecard is wrong.  How can I get their timecard fixed? ",
+                "A trainee quit but their timecard is wrong. How can I get their timecard corrected? ",
+                "A trainee quit, but their timecard is wrong. How can I get their timecard fixed? ",
+                "A trainee resigned but their timecard is wrong. How can I get their timecard corrected? ",
+                "A trainee resigned but their timecard is wrong. How can I get their timecard fixed? ",
+                "How can I get time added on an absent trainee's timecard?",
+                "How do I submit a Deltek Approval?",
+                "I need my trainee's timecard proxy signed.  How do I do that?"
+            ],
+            "responses": [
+                "Send your request via email to [CCOTimeCardHelp@Maximus.com] using the template found here: (https://maximus365.sharepoint.com/sites/CCO/Support/KSTP/CCO_Training_Delivery_Trainer_Resources/Forms%20and%20Templates/Forms/AllItems.aspx?viewpath=%2Fsites%2FCCO%2FSupport%2FKSTP%2FCCO_Training_Delivery_Trainer_Resources%2FForms%20and%20Templates%2FForms%2FAllItems.aspx)."
+                ],
+            "context_set": ""
+        },
+        {
+            "tag": "Q3",
+            "patterns": [
+            	"naming convention for class DTR",
+            	"How to correctly fill out DTR",
+   				"What is the naming convention for my class DTR?",
+                "What is the proper DTR naming convention for new hire classes?",
+                "I messed up my Daily Training Report.  Do I have to make another one if I can't fix it?",
+                "I messed up my DTR.  Do I have to make another one if I can't fix it?",
+                "Ooops!  I just messed up my Daily Training Report.  Do I need to create a new one?",
+                "Ooops!  I just messed up my DTR.  Do I need to create a new one?",
+                "Will I need to create a new Daily Training Report if I mess mine up?",
+                "Will I need to create a new DTR if I mess mine up?",
+                "How to complete Daily Training Report (DTR).", 
+                "How to fill out the Daily Training Report and where would we get this information to assist us in filling out the Daily Training Report? ",
+                "How to fill out the DTR and where would we get this information to assist us in filling out the DTR? ",
+                "How do I fill out the Daily Training Report?",
+                "What information should I include on the class Daily Training Report?",
+	            "Daily Training Report (DTR).",
+                "How do I create a Daily Training Report?",
+                "How do I create a DTR? ",
+                "How do I name my Daily Training Report?",
+                "How do go about uploading my DTR?",
+                "How do I correct errors on my Daily Training Report? ",
+                "How do I correct errors on my DTR? ",
+                "How do I go about uploading my daily training report? ",
+                "How do I prepare the class Daily Training Report? ",
+                "How do I prepare the class DTR?",
+                "How do I record information in the Daily Training Report?",
+                "How do I record information in the DTR?",
+                "How do I upload a Daily Training Report?",
+                "How do I upload a DTR?",
+                "How do I upload the DTR for class? ",
+                "How do I Upload the DTR for either Class Training or Nesting?",
+                "How much information should I record in my Daily Training Report?",
+                "How much information should I record in my DTR?",
+                "How to fix errors on Daily Training Report",
+                "How to fix errors on DTR",
+                "I messed up my Daily Training Report.  How do I fix it?",
+                "I messed up my DTR.  How do I fix it?",
+                "I need to fix errors on my Daily Training Report. ",
+                "I need to fix errors on my DTR. ",
+                "I need to upload my Daily Training Report.",
+                "I need to upload my DTR.",
+                "Is there a checklist to use when creating my Daily Training Report for class?",
+                "Is there a checklist to use when creating my DTR for class?",
+                "What are the steps to upload my Daily Training Report?",
+                "What are the steps to uploading my DTR?",
+                "What do I name my Daily Training Report?",
+                "What do I name my DTR?",
+                "What information should I include on the class DTR?",
+                "What is expected to be recorded in the Daily Training Report?",
+                "What is expected to be recorded in the DTR?",
+                "What is the naming convention for my class Daily Training Report?",
+                "Who is supposed to fill out the Daily Training Report daily?",
+                "Who is supposed to fill out the DTR daily?"
+                "How to complete Daily Training Report (DTR).", 
+                "Am I completing Daily Training Report correctly?",
+                "Am I completing Daily Training Report right?",
+                "Am I completing DTR correctly?",
+                "Am I completing DTR right? ",
+                "Am I doing Daily Training Report correctly?",
+                "Am I doing Daily Training Report right?",
+                "Am I doing DTR correctly?",
+                "Am I doing DTR right? ",
+                "Am I filling out the Daily Training Report correctly?",
+                "Am I filling out the Daily Training Report right?",
+                "Am I filling out the DTR correctly? ",
+                "Am I filling out the DTR right?  ",
+                "How do I fill out the DTR?",
+                "I need to fill out the Daily Training Report. How do I do that correctly?",
+                "I need to fill out the DTR.  How do I do that correctly?",           
+                "How to complete Daily Training Report (DTR).", 
+	            "Daily Training Report (DTR).", 
+                "A step-by-step guideline on how to fill in specific sections of the daily training report on the daily basis.",
+                "A step-by-step guideline on how to fill in specific sections of the DTR on the daily basis.",
+                "How do you correctly fill out a Daily Training Report when Candidate Recruitment and Onboarding Portal data is unavailable? ",
+                "How do you correctly fill out a Daily Training Report when CROP data is unavailable? ",
+                "How do you correctly fill out a Daily Training Report? ",
+                "How do you correctly fill out a DTR when Candidate Recruitment and Onboarding Portal data is unavailable? ",
+                "How do you correctly fill out a DTR when CROP data is unavailable? ",
+                "How do you correctly fill out a DTR? ",
+                "How to correctly fill out a Daily Training Report when Candidate Recruiting and Operations Portal data has not been given to us?",
+                "How to correctly fill out a Daily Training Report when CROP data has not been given to us?",
+                "How to correctly fill out a DTR when CROP data has not been given to us?"
+
+            ],
+            "responses": [
+                "Refer to Trainer Responsibilities SOP TD 1.21.02 https://maximus365.sharepoint.com/sites/CCO/Resources/SOP/Training%20Delivery/Forms/AllItems.aspx?viewpath=%2Fsites%2FCCO%2FResources%2FSOP%2FTraining%20Delivery%2FForms%2FAllItems%2Easpx&id=%2Fsites%2FCCO%2FResources%2FSOP%2FTraining%20Delivery%2FTD%201%2E21%2E02%5FTrainer%5FResponsibilities%5Fv1%2E2%2Epdf&parent=%2Fsites%2FCCO%2FResources%2FSOP%2FTraining%20DeliveryAlso, see DTR Process Manual and sample DTR. https://maximus365.sharepoint.com/sites/CCO/Support/KSTP/CCO_Training_Delivery_Trainer_Resources/Forms%20and%20Templates/Forms/AllItems.aspx?id=%2Fsites%2FCCO%2FSupport%2FKSTP%2FCCO%5FTraining%5FDelivery%5FTrainer%5FResources%2FForms%20and%20Templates%2FDTR%27s%2FSample%20DTR&viewid=61d05af6%2D9c82%2D4e52%2Db24a%2D7ce50f778c19”
+                ],
+            "context_set": ""
+        },
+        {
+            "tag": "Q4",
+            "patterns": [
+                "How to complete tax forms.",
+	            "help with Tax forms.",
+                "A trainee has questions about completing the tax forms. ",
+                "A trainee has questions about filling out the tax form. ",
+                "What assistance can we give to a new hire who is filling out the tax form? ",
+                "What assistance can we give to a participant who is filling out the tax form? ",
+                "What assistance can we give to a trainee who is filling out the tax form? ",
+                "What help can we offer to a trainee who has questions about filling out the tax withholding form? ",
+                "What resource can we use to assist trainees in filling out tax forms on MaxNet?"
+            ],
+            "responses": [
+                "There is a Worksheet available on Deltek for [Federal Withholding Information] (https://timesheets.maximus.com/DeltekTC/TimeCollection.msv). If the trainee still needs assistance they can reach out to [Payroll] via email [Payroll@Maximus.com.]"
+            ],
+            "context_set": ""
+        },
+        {
+            "tag": "Q5",
+            "patterns": [
+            	"help with Secure Floor Policy",
+                "How to handle Secure Floor Policy violations.",
+				"Secure Floor Policy violations.",
+				"A trainee in my class had their cell phone go off in class, what now?",
+                "A trainee in my class had their cell phone ring/vibrate in class, what now? ",
+                "What if a trainee doesn't have a locker, can they have their cell phone in the training room?",
+                "What is the Secure Floor Policy?",
+				"Can a New Hire have their Fit Bit in class? ",
+                "Can a New Hire have their Fit Bit in training? ",
+                "Can a New Hire have their fitness tracker in class? ",
+                "Can a New Hire have their fitness tracker in training? ",
+                "Can a participant have their Fit Bit in class? ",
+                "Can a participant have their Fit Bit in training? ",
+                "Can a participant have their fitness tracker in class?  ",
+                "Can a participant have their fitness tracker in training?  ",
+                "Can a trainee have their Fit Bit in class?",
+                "Can a trainee have their fitness tracker in class? ",
+                "Can a trainee have their fitness tracker in training? ",
+                "What is not allowed to have in a Class Room according the the Secure Floor Policy?",
+                "What is not allowed to have in a Training Room according the the Secure Floor Policy?",
+				"What should I include when writing up disciplinary action for a cell phone violation",
+                "Where can I find verbiage for cell phone violations in the classroom?"
+
+            ],
+            "responses": [
+                "Refer to [CCO Secure Floor Policy] (https://maximus365.sharepoint.com/sites/CCO/Connection/Policies/Forms/SecureFloor.aspx)."
+            ],
+            "context_set": ""
+        },
+        {
+            "tag": "Q7",
+            "patterns": [
+            "Call handling requirements (trainers).",
+            "Am I required to take calls while I train a class?",
+            "How many hours of calls do I have to take each month? "
+            ],
+            "responses": [
+                "Depending on business need, trainers may be called to the phones for contingency. There is also a quarterly requirement of call taking for trainers to meet.  Trainers may be granted a waiver while training class. See [Trainer Responsibilities SOP TD 1.21.02] located here https://maximus365.sharepoint.com/sites/CCO/Resources/SOP/Training%20Delivery/Forms/AllItems.aspx?viewpath=%2Fsites%2FCCO%2FResources%2FSOP%2FTraining%20Delivery%2FForms%2FAllItems%2Easpx&id=%2Fsites%2FCCO%2FResources%2FSOP%2FTraining%20Delivery%2FTD%201%2E21%2E02%5FTrainer%5FResponsibilities%5Fv1%2E2%2Epdf&parent=%2Fsites%2FCCO%2FResources%2FSOP%2FTraining%20Delivery"
+
+                ],
+            "context_set": ""
+        },
+        {
+            "tag": "Q8",
+            "patterns": [
+                "What does the Nesting agenda include?",
+				"Nesting agenda.",
+				"And what is priority for Day 1 Nesting?",
+                "How do we access the Nesting Agenda? ",
+                "What needs to be completed on day one of Nesting?",
+				"How do I find the nesting agenda?",
+                "how can i find a nesting agenda?",
+            ],
+            "responses": [
+                "Access and follow the agenda for the line of business for your Nesting class here (https://maximus365.sharepoint.com/sites/CCO/Support/KSTP/CCO_Training_Delivery_Trainer_Resources/Nesting/default.aspx).   For further reference Refer to [CCO Nesting](https://maximus365.sharepoint.com/sites/CCO/Support/KSTP/CCO_Training_Delivery_Trainer_Resources/Nesting/default.aspx) and choose your Line of Business."
+            ],
+            "context_set": ""
+        },
+        {
+            "tag": "Q9",
+            "patterns": [
+            	"help with courses CCO Learning",
+                "How to assign courses in CCO Learning.",
+				"CCO Learning course assignment.", 
+				"Are there a list of steps to load the courses in CCO Learning to my training class? ",
+                "Are there a list of steps to load the materials in CCO Learning to my training class?",
+                "How do I assign courses through CCO Learning to my class? ",
+                "How do I assign material through CCO Learning to my class?",
+                "How do I assign the curriculum to my class in CCO Learning?",
+                "How do I get curriculum assigned to my class? ",
+                "How do I push curriculum in CCO Learning?",
+                "How do I push lessons out to my class through CCO Learning? ",
+                "How do I push out courses in CCO Learning?",
+                "How do I push the materials out to my class?",
+                "How do you load the curriculum for the class in CCO Learning?",
+                "How push courses on CCO once there is access?",
+                "How to assign on CCO Learning for your assigned new hires? ",
+                "How to assign on CCO Learning for your assigned participants? ",
+                "How to assign on CCO Learning for your assigned trainees? ",
+                "How to assign/push on CCO Learning for your assigned participants? ",
+                "How to push out on CCO Learning for your assigned new hires?",
+                "How to push out on CCO Learning for your assigned participants?",
+                "How to push out on CCO Learning for your assigned trainees?",
+                "How to push out/assign on CCO Learning for your assigned trainees?",
+                "I need to push the materials out to my class.  How do I do that?",
+                "Show me how I push the materials out to my class?",
+                "What are the steps to assign the materials to my class?",
+                "What steps do I take to assign the materials for my class? ",
+                "What steps do I take to push courses on CCO Learning to my class?",
+				"Assigning the proper courses in CCO Learning? ",
+                "Assigning the proper curriculum in CCO Learning? ",
+                "Assigning the proper materials in CCO Learning? ",
+                "How push courses and what are the proper courses to push on CCO once there is access?",
+                "How to assign the proper courses on CCO Learning once there is access? ",
+	 			"How to assign courses in CCO Learning.", 
+				"CCO Learning course assignment.", 
+				"Pushing out the proper curriculum in CCO Learning? ",
+                "is cco learning a good example of a curriculum that is not required for the proper academic courses?",
+                "will cco learning move beyond a curriculum?"
+            ],
+            "responses": [
+                "Access CCO Learning-My Employees-Assign Learning to My Employees.  Then Select Management Action-Add Items and curricula.  Click Next. Select Users - Click box under Select Users- Names will populate under 'List of Selected Users.' Add Checked. Click Next. Search for Items and curriculum using key words or Exact Phrases. Locate the materials to assign and add checked. Click Next. Review for accuracy. Click Finish."
+            ],
+            "context_set": ""
+        },
+        {
+            "tag": "Q10",
+            "patterns": [
+            	"help with Deltek Charge Codes. ",
+                "What are Training Deltek Charge Codes? ",
+				"Deltek Charge Codes. ",
+				"Are there different Deltek charge codes we are supposed to use on days 1 and 2? ",
+                "Are there different Deltek project codes we are supposed to use on days 1 and 2? ",
+                "What charge codes in Deltek should we be using on day 1 and day 2? ",
+                "What charge codes in Deltek should we be using on day one and day two? ",
+                "Where can I locate the proper Deltek codes for new hires for Day 1 and Day 2?",
+                "Where do we find the charge codes used for training? ",
+                "We had a fire drill.  What Deltek Charge code should me class use for the time spent?",
+                "What Deltek Charge Code does my class use?"
+
+            ],
+            "responses": [
+                   "Find the Deltek Charge Codes for the current Option Year at [CCO Connection] under the heading [Support] (https://maximus365.sharepoint.com/sites/CCO/Connection/default.aspx) and locate your site."          
+               ],
+            "context_set": ""
+        },
+        {
+            "tag": "Q11",
+            "patterns": [
+            	"help with daily instructor tasks",
+                "What are instructor responsibilities?", 
+				"Instructor responsibilities",
+				"Are there requirements I need to complete daily when I have a class? ",
+                "Are there responsibilities I need to complete daily when I have a class? ",
+                "Are there things I am required to complete daily when I have a class?",
+                "Are there things I need to complete daily when I have a class?",
+                "Is there a check list of things I need to complete daily when I am teaching a class?",
+                "What are my daily responsibilities while I have a class?",
+                "What are the things I need to make sure to do for my class every day?",
+                "What should I complete daily when I have a class in session? "
+            ],
+            "responses": [
+                    "Refer to [SOP TD 1.21.02 Trainer Responsibilities] https://maximus365.sharepoint.com/sites/CCO/Resources/SOP/Training%20Delivery/Forms/AllItems.aspx?viewpath=%2Fsites%2FCCO%2FResources%2FSOP%2FTraining%20Delivery%2FForms%2FAllItems%2Easpx&id=%2Fsites%2FCCO%2FResources%2FSOP%2FTraining%20Delivery%2FTD%201%2E21%2E02%5FTrainer%5FResponsibilities%5Fv1%2E2%2Epdf&parent=%2Fsites%2FCCO%2FResources%2FSOP%2FTraining%20Delivery"
+
+                ],
+            "context_set": ""
+        },
+        {
+            "tag": "Q12",
+            "patterns": [
+            	"class rules info",
+                "What are classroom ground rules?",
+				"Classroom ground rules."
+				"Are there rules I should post in my training room? ",
+                "Are there rules of the road for training class? ",
+                "Are there rules of the road I should post in my training room? ",
+                "Are there set ground rules for training class? ",
+                "Are there set ground rules I should post in my training room? ",
+                "Give me some ground rules. ",
+                "What are some ground rules that I should always include?",
+                "What are the ground rules for class? "
+            ],
+            "responses": [
+                "Always include these in your Class Ground Rules: -Participate - Respect Trainer and Co-Workers - Ask Questions "
+            ],
+            "context_set": ""
+        },
+        {
+            "tag": "Q13",
+            "patterns": [
+                "What is the Nesting Daily Training Report (DTR) process? ",
+				"Nesting Daily Trainning Report",
+				"Nesting DTR help",
+				"As a Nesting POC, how do I create the Nesting Daily Training Report?",
+                "As a Nesting POC, how do I create the Nesting DTR?",
+                "As a Nesting Point of Contact, how do I create the Nesting Daily Training Report? ",
+                "As A Nesting Point of Contact, how do I create the Nesting DTR? ",
+                "How do I create a Nesting Daily Training Report?",
+                "How do I create a Nesting DTR?",
+                "How do I fill out a Nesting Daily Training Report? ",
+                "How do I fill out a Nesting DTR? ",
+                "What information do I include in a Nesting Daily Training Report?",
+                "What information do I include in a Nesting DTR?",
+                "What information needs to be included in my Nesting DTR?"
+            ],
+            "responses": [
+                    "Access [Resources DTR Process] on the [CCO Nesting SharePoint Site] (https://maximus365.sharepoint.com/sites/CCO/Support/KSTP/CCO_Training_Delivery_Trainer_Resources/Nesting/Resources/Forms/AllItems.aspx?RootFolder=%2Fsites%2FCCO%2FSupport%2FKSTP%2FCCO%5FTraining%5FDelivery%5FTrainer%5FResources%2FNesting%2FResources%2FDTR%20Process&FolderCTID=0x01200044248B9CC587E3429A6AA6CAA1243DBE&View=%7BB181F867%2D3870%2D4CAF%2D964B%2D43643C5210CA%7D) and find the [CCO Process Manual Daily Training Report ((DTR)) OY7 Nesting)."
+                ],
+            "context_set": ""
+        },
+        {
+            "tag": "Q16",
+            "patterns": [
+            	"help with IT tickets",
+                "How to correct IT ticket.",
+				"Can I correct an IT ticket after it was submitted?",
+                "Can I fix an IT ticket after it was submitted? ",
+                "I submitted a ticket to IT incorrectly. Can I correct it?",
+                "Is there a way to correct a ticket after it was submitted?",
+                "What happens if I submit a ticket incorrectly?"
+            ],
+            "responses": [
+                "1. Go to [IT Service Help Desk Cherwell] (https://itservicedesk.maximus.com/CherwellPortal/IT?_=6c6a1b39)  2. Log in using your employee number and Outlook password. 3. Click My Tickets.  4. Find the ticket submitted in error. 5. Close the ticket or add a comment explaining and correcting. "
+            ],
+            "context_set": ""
+        },
+        {
+            "tag": "Q17",
+            "patterns": [
+                "How to set up printer.",
+	"Printer setup.",
+				"printer set up help",
+				"Can IT set me up on the printer?",
+                "How do I get set up to use the printer?",
+                "How do I set up a printer credentials to be able to print items needed while training?",
+                "How do I set up the printer?",
+                "I am not set up on the printer. How do I get set up? ",
+                "I need to print a milestone but am not set up on the printer. ",
+                "Who do I ask to set me up with printer access?"
+            ],
+            "responses": [
+                "Access [Cherwell IT Service Desk Home Service Catalog - Federal Printer Issues](https://itservicedesk.maximus.com/CherwellPortal/IT?_=28db53f5#1). Fill out the request form and submit."
+            ],
+            "context_set": ""
+        },
+        {
+            "tag": "Q18",
+            "patterns": [
+            	"Call play guidelines.", 
+                "Call playing guidelines.", 
+				"Can we only use the calls that are on the Instructor Resource List for Hands on?",
+                "Can we only use the calls that are on the Training Resource for Hands on?",
+                "Can we play calls other than those in the lessons for hands on activities? ",
+                "Can we pull calls other than those in the materials for hands on activity? ",
+                "Do we only use the calls in the lessons? ",
+				"Can we use different calls to listen during class not only the ones on the instructor resources list?",
+                "I am excellent on calls.  Can I play my own calls for my class? ",
+                "I found some great calls to play for class!",
+                "The calls in the materials are not as good as mine.  Can I just play my calls? "
+            ],
+            "responses": [
+                "Before playing any calls other than those identified in materials, follow the steps outlined in [TD SOP 9.0 Indentifying Calls for Training](https://maximus365.sharepoint.com/sites/CCO/Resources/SOP/Training%20Delivery/Forms/AllItems.aspx?viewpath=%2Fsite) when you find a call that you believe is suitable for training."
+            ],
+            "context_set": ""
+        },
+        
+        {
+            "tag": "Q20",
+            "patterns": [
+            	"overtime info help",
+                "What is the overtime limit for trainers?",
+				"Trainer Overtime",
+				"Class is over, but I still need to fill out my DTR. How long can I stay over? ",
+                "How early can I arrive before class starts?",
+                "How late can I stay after class to get my work completed?",
+                "How long am I allowed to stay after class to complete my administrative work? ",
+                "How long before class starts can I come in to work?",
+                "How many minutes can I come in before class starts?",
+                "Is there an amount of time I can come in early for class?",
+				"How much OT am I allow to have as a instructor? ",
+                "How much OT am I allow to have as a trainer? ",
+                "How much overtime am I allow to have as a instructor?",
+                "How much overtime am I allow to have as a trainer?",
+                "How much time am I allowed to stay after class to complete my administrative duties?"
+
+            ],
+            "responses": [
+                "Based on business need and while assigned as a Trainer or Co-Trainer in a Core Curriculum Class, with your Local Training Manager's approval you may have up to 15-30 minutes of daily overtime."            ],
+            "context_set": ""
+        },
+        {
+            "tag": "Q21",
+            "patterns": [
+            	"who fills out DTR",
+                "Who completes Daily Training Report (DTR)?"
+				"Do I complete the Daily Training Report every day? ",
+                "Do I complete the DTR every day? ",
+                "Do I fill out the Daily Training Report every day we have class? ",
+                "Do I fill out the DTR every day we have class? ",
+                "Does my co-instructor fill out the Daily Training Report? ",
+                "Does my co-instructor fill out the DTR? ",
+                "Does my co-trainer fill out the Daily Training Report? ",
+                "Does my co-trainer fill out the DTR? ",
+                "How often are we supposed to update the Daily Training Report? ",
+                "How often are we supposed to update the DTR? ",
+                "Who is supposed to fill out the DTR every day? "
+            ],
+            "responses": [
+                "Refer to SOP TD 1.8 Certification of CSRs (    https://maximus365.sharepoint.com/sites/CCO/Resources/SOP/Training%20Delivery/Forms/AllItems.aspx?viewpath=%2Fsites%2FCCO%2FResources%2FSOP%2FTraining%20Delivery%2FForms%2FAllItems%2Easpx&id=%2Fsites%2FCCO%2FResources%2FSOP%2FTraining%20Delivery%2FTD%201%2E8%5FCertification%5Fof%5FCSRs%5Fv5%2E7%2Epdf&parent=%2Fsites%2FCCO%2FResources%2FSOP%2FTraining%20Delivery)"
+                ],
+            "context_set": ""
+        },
+        {
+            "tag": "Q22",
+            "patterns": [
+                "How to complete call certification.", 
+				"Call certification.", 
+				"Do I need to fill out all of the call cert form? ",
+                "Do I need to fill out all of the call certification form? ",
+                "How do I fill out a cert form? ",
+                "How do I fill out a CSR Certification Form? ",
+                "How do I fill out the call cert form? ",
+                "How do I fill out the call certification form?",
+                "How do you fill out the certification form?",
+                "How to fill out Certifications forms?",
+                "What steps do I take to complete the Call Certification Form? ",
+				"How do I certify a CSR?",
+                "What is the process for CSR Certification?",
+				"How do I conduct CSR Certification?",
+                "how can i do csr certification?",
+                "what do i do for csr certification?",
+                "how can i conduct csr certification?",
+                "how do i conduct csr certification?"
+            ],
+            "responses": [
+                "Refer to [SOP TD 1.8 Certification of CSRs](https://maximus365.sharepoint.com/sites/CCO/Resources/SOP/Training%20Delivery/Forms/AllItems.aspx?viewpath=%2Fsites%2FCCO%2FResources%2FSOP%2FTraining%20Delivery%2FForms%2FAllItems%2Easpx&id=%2Fsites%2FCCO%2FResources%2FSOP%2FTraining%20Delivery%2FTD%201%2E8%5FCertification%5Fof%5FCSRs%5Fv5%2E3%2Epdf&parent=%2Fsites%2FCCO%2FResources%2FSOP%2FTraining%20Delivery)."
+            ],
+            "context_set": ""
+        },
+        {
+            "tag": "Q23",
+            "patterns": [
+            	"instructor duties help",
+                "What are instructor responsibilities?", 
+				"Instructor responsibilities.",
+				"Do we have a daily checklist of responsibilities I have outside of the classroom as part of my job?",
+                "how do you keep a daily work-based responsibilities list?",
+                "how do i know what responsibilities i have outside of the classroom?",
+                "do you have a daily list of responsibilities outside of the classroom?",
+                "do we have daily lists of responsibilities outside the classroom as part of our job?",
+                "do you have a daily list of responsibilities i have outside of the classroom as part of my job?"
+            ],
+            "responses": [
+                "Refer to SOP TD 1.21.02 Trainer Responsibilities (https://maximus365.sharepoint.com/sites/CCO/Resources/SOP/Training%20Delivery/Forms/AllItems.aspx?viewpath=%2Fsite&id=%2Fsites%2FCCO%2FResources%2FSOP%2FTraining%20Delivery%2FTD%201%2E21%2E02%5FTrainer%5FResponsibilities%5Fv1%2E2%2Epdf&parent=%2Fsites%2FCCO%2FResources%2FSOP%2FTraining%20Delivery)."
+                ],
+            "context_set": ""
+        },
+        {
+            "tag": "Q24",
+            "patterns": [
+            	"help with ETO",
+                "How to track Earned Time Off (ETO).",
+				"Earned Time Off (ETO).",
+				"Do new hires in training get Earned Time Off? ",
+                "Do new hires in training get ETO?",
+                "How do I figure my trainee's Earned Time Off while in training?",
+                "How do I figure my trainee's ETO while in training?",
+                "How do I submit Earned Time Off? ",
+                "How do I submit ETO?",
+                "What are the requirements for New Hires to receive Earned Time Off for perfect attendance? ",
+                "What are the requirements for New Hires to receive ETO for perfect attendance? ",
+                "Who do I submit Earned Time Off to? ",
+                "Who do I submit ETO to?"
+            ],
+            "responses": [
+                "Access [SOP CCO 1.0 Maximus Federal Procedure] (https://maximus365.sharepoint.com/sites/CCO/Resources/SOP/Contact%20Center%20Operations/Forms/AllItems.aspx?viewpath=%2Fsites%2FCCO%2FResources%2FSOP%2FContact%20Center%20Operations%2FForms%2FAllItems%2Easpx&id=%2Fsites%2FCCO%2FResources%2FSOP%2FContact%20Center%20Operations%2FCC%201%2E0%5FMaximus%20Federal%20Procedures%5Fv2%2E9%2Epdf&parent=%2Fsites%2FCCO%2FResources%2FSOP%2FContact%20Center%20Operations)  Process 1.0.7 step 3."
+            ],
+            "context_set": ""
+        },
+        {
+            "tag": "Q25",
+            "patterns": [
+                "Accessing instructor observation feedback.",
+				"Instructor observation feedback.",
+ 				"Have I received any feedback?",
+                "My co-instructor just completed an audit on me, where is my score?",
+                "My co-instructor just completed an observation on me, where is my score?",
+                "My co-trainer just completed an audit on me, where is my score?",
+                "My co-trainer just completed an observation on me. ",
+                "My Training Lead just completed a class audit, where can I find my score?",
+                "My Training Lead just completed a observation, where can I find my score?",
+                "My Training Manager just completed a class audit, where can I find my score?",
+                "My Training Manager just completed a observation, where can I find my score?",
+                "Where can I review the feedback my Training Lead gave me during her last observation? ",
+                "Where can I review the feedback my Training Manager gave me during her last observation? ",
+                "Where can I see how my observations have went? "
+            ],
+            "responses": [
+                "Refer to [Instructor Observation Form Trainer Reporting](https://maximus365.sharepoint.com/sites/CCO/Support/KSTP/CCO_Training_Delivery_Trainer_Resources/IOF/Instructor_Observation_Form/Forms/TrainerAllStatuses.aspx)."
+            ],
+            "context_set": ""
+        },
+        {
+            "tag": "Q26",
+            "patterns": [
+            	"Help Assigning trainees CCO Learning",
+                "Trainee(s) not assigned in CCO Learning.",
+				"Assigning trainees in CCO Learning.",
+				"How can I get my class to roll up to me in CCO Learning? ",
+                "I need my class to be moved over to me in CCO Learning. ",
+                "I need to assign materials to my class, but they are not rolling up to me in CCO Learning.",
+                "My class is not under me in CCO Learning. How can I get that fixed? ",
+                "What do I do if I need my class moved to me in CCO Learning so I can assign the curriculum to them? ",
+                "What do I do if the new hires are not rolling up to me in CCO Learning?",
+                "What do I do if the participants are not rolling up to me in CCO Learning?",
+                "What do I do if the trainees are not rolling up to me in CCO Learning?",
+                "What ticket should I submit to get me class moved over to me to assign curriculum to them? "
+            ],
+            "responses": [
+                "If the person is not showing on Day One, send an email to SWP with the roster asking the person be assigned. If the person still is not assigned by Day Three, submit a ticket Submit a ticket for CCO Learning Issues by accessing ([IT Service Desk](https://itservicedesk.maximus.com/CherwellPortal/IT?_=422bffd2)."
+                ],
+            "context_set": ""
+        },
+        {
+            "tag": "Q27",
+            "patterns": [
+            	"Calls in Verint help",
+                "Playing calls in Verint.",
+				"How can I play Verint Calls for my class?",
+                "How do I play calls for class?",
+                "How do I pull calls to play for CSRs in class?",
+                "How to play calls for the CSRs?",
+                "How to play calls for the New hires?",
+                "How to play calls for the participants?",
+                "How to play calls for the trainees?",
+                "I need to play calls for class. How do I play them through Verint?",
+                "I need to play Verint calls for my class",
+                "What are the steps to play calls in my class?"
+            ],
+            "responses": [
+                "Refer to [Verint-Locating Training Calls JobAid](https://maximus365.sharepoint.com/sites/CCO/Support/KSTP/CCO_Training_Delivery_Trainer_Resources/Job%20Aids/Forms/AllItems.aspx?viewpath=%2Fsites%2FCCO%2FSupport%2FKSTP%2FCCO_Training_Delivery_Trainer_Resources%2FJob%20Aids%2FForms%2FAllItems.aspx)."
+            ],
+            "context_set": ""
+        },
+        {
+            "tag": "Q28",
+            "patterns": [
+                "How to use WebEx for Virtual Training.", 
+				"WebEx Virtual Training.",
+				"How can we listen to call when we have a virtual training class?",
+                "How can we listen to call when we have a Webex training class?",
+                "How do I create a virtual training session with WebEx?",
+                "How do I create a WebEx meeting for my class?",
+                "I need to create a virtual training class with WebEx. ",
+                "Is there a quick step by step guide to use Microsoft Teams and WebEx when I train a class?",
+                "What do I need to do to create a WebEx training session?"
+            ],
+            "responses": [
+                "Access [WebEx Training Materials](https://trainingresources.ngd.local/MTKRSite/SubSites/LearningResources/CCOLearningandWebEx/index.htm)."
+            ],
+            "context_set": ""
+        },
+        {
+            "tag": "Q29",
+            "patterns": [
+            	"Class confirmations",
+                "Class confirmations help",
+				"How do a fill out a class confirmation? ",
+                "How do I do the class confirmation?",
+                "What are the steps to prepare and send a class confirmation?",
+                "What do I do to complete and send a class confirmation? ",
+                "What is a Class Confirmation?"
+            ],
+            "responses": [
+                "Refer to Job Aid: How to Complete the Confirmation Form (https://maximus365.sharepoint.com/sites/CCO/Support/KSTP/CCO_Training_Delivery_Trainer_Resources/Job%20Aids/Forms/AllItems.aspx?viewpath=%2Fsites%2FCCO%2FSupport%2FKSTP%2FCCO%5FTraining%5FDelivery%5FTrainer%5FResources%2FJob%20Aids%2FForms%2FAllItems%2Easpx)],"
+            ],
+            "context_set": ""
+        },
+        {
+            "tag": "Q30",
+            "patterns": [
+                "How to handle behavioral issues. ",
+				"Behavioral issues help",
+				"How do a handle a disruptive trainee?",
+                "How do I handle a behavior issue trainee? ",
+                "How do I handle behavior issues in class?",
+                "How do you professionally address a disruptive participant in training? ",
+                "How do you properly address a behavioral issue CSR in your classroom in the most professional manner?",
+                "How do you properly address a disruptive CSR in your classroom in the most professional manner?",
+                "How should I address behavior issues in my class? ",
+                "How should I address disruptions in my class? ",
+                "How would you handle an employee who doesn't think your training session is necessary? ",
+                "I have a rehire in class who doesn't think they need this training. How should I handle this? ",
+                "If there is a behavioral issue trainee in class, what is the proper way to professionally address the behavioral issue? ",
+                "If there is a disruptive trainee in class, what is the proper way to professionally address the disruption? ",
+                "There is a participant in class that thinks this training is unnecessary. How should I deal with this situation? ",
+                "What can be done when you have a behavior issue trainee in class? ",
+                "What can be done when you have a disruptive trainee in class? ",
+                "What is the best way to handle a trainee in class who doesn't think this training is important? ",
+                "What is the best way to handle behavior issues in my class? ",
+                "What is the first steps in dealing with classroom issues?",
+                "What should I do about behavior issues in my class? "
+            ],
+            "responses": [
+                "Please see your Training Manager to discuss options."
+            ],
+            "context_set": ""
+        },
+        {
+            "tag": "Q31",
+            "patterns": [
+                "How to use WebEx for Virtual Training.", 
+				"WebEx Virtual Training.",
+				"How do a train a virtual class? ",
+                "How do a train a Webex class? ",
+                "How do I conduct a Webex Training? ",
+                "How do I facilitate a WebEx Training? ",
+                "How do I set up a Virtual WebEx Class?",
+                "I am assigned to train using WebEx. What now? ",
+                "Where do I find guidance when I am assigned to train virtually? "
+            ],
+            "responses": [
+                "Access [WebEx Training Materials](https://trainingresources.ngd.local/MTKRSite/SubSites/LearningResources/CCOLearningandWebEx/index.htm)."
+            ],
+            "context_set": ""
+        },
+        {
+            "tag": "Q33",
+            "patterns": [
+                "How to create metadata folder.",
+				"Metadata folders.",
+				"How do I add additional folders in the DTR (attendance, assessments, etc.)?",
+                "How do I create a Metadata folder for my Daily Training Report?",
+                "How do I create a metadata folder for my DTR?",
+                "How do I make a metadata folder for my Daily Training Report?",
+                "How do I make a metadata folder for my DTR?",
+                "I need to create a folder for my Daily Training Report on the SharePoint site. How do I do that?",
+                "I need to create a folder for my DTR on the SharePoint site.  How do I do that? ",
+                "What is a meta data folder and how do I get it into the database?",
+                "What should be included in a Metadata folder?",
+                "Where do I store my class Daily Training Report?",
+                "Where do I store my class DTR?",
+                "Where do I upload my Daily Training Report?",
+                "Where do I upload my DTR?"
+            ],
+            "responses": [
+                "Refer to Job Aid- Creating Metadata Folders for Training Class Documentation https://maximus365.sharepoint.com/sites/CCO/Support/KSTP/DeliveryChester/Shared%20Documents/Forms/AllItems.aspx?id=%2Fsites%2FCCO%2FSupport%2FKSTP%2FDeliveryChester%2FShared%20Documents%2FDTR%20Meta%20Folder%20Uploads%202020%2FJob%20Aid%5FCreating%20Metadata%20Folders%2Epdf&parent=%2Fsites%2FCCO%2FSupport%2FKSTP%2FDeliveryChester%2FShared%20Documents%2FDTR%20Meta%20Folder%20Uploads%202020"
+
+                ],
+            "context_set": ""
+        },
+        {
+            "tag": "Q35",
+            "patterns": [
+            	"help with call certified issues",
+                "Class confirmations.",
+                "How do I communicate my class has call certified?",
+                "How do I complete a class confirmation? ",
+                "How do I complete and send a Class Confirmation?",
+                "How do I submit a class confirmation? ",
+                "How do I submit and send a class confirmation? ",
+                "How to send in a class confirmation?",
+                "I have to complete a class confirmation. How do I do that? ",
+                "What are the steps to sending a class confirmation? ",
+                "What is the process for submitting a class confirmation?"
+            ],
+            "responses": [
+                "Refer to [Job Aid-How to Complete the Class Confirmation Form](https://maximus365.sharepoint.com/sites/CCO/Support/KSTP/CCO_Training_Delivery_Trainer_Resources/Job%20Aids/Forms/AllItems.aspx?viewpath=%2Fsites%2FCCO%2FSupport%2FKSTP%2FCCO%5FTraining%5FDelivery%5FTrainer%5FResources%2FJob%20Aids%2FForms%2FAllItems%2Easpx&id=%2Fsites%2FCCO%2FSupport%2FKSTP%2FCCO%5FTraining%5FDelivery%5FTrainer%5FResources%2FJob%20Aids%2FHow%20to%20Complete%20the%20Class%20Confirmation%20Form%5FJob%20Aid%5Fv3%5F06%2010%2016%2Epdf&parent=%2Fsites%2FCCO%2FSupport%2FKSTP%2FCCO%5FTraining%5FDelivery%5FTrainer%5FResources%2FJob%20Aids)."
+                ],
+            "context_set": ""
+        },
+        {
+            "tag": "Q36",
+            "patterns": [
+            	"help with Instructor Observation",
+                "How to complete instructor observation.",
+	            "How to complete peer audit.",
+                "How do I complete peer audit?",
+                "What is an Instructor Observation?"
+            ],
+            "responses": [
+                "Refer to Instructor Observation SOP TD 1.6 https://maximus365.sharepoint.com/sites/CCO/Resources/SOP/Training%20Delivery/Forms/AllItems.aspx?id=%2Fsites%2FCCO%2FResources%2FSOP%2FTraining%20Delivery%2FTD%201%2E6%5FInstructor%5FObservation%5Fv4%2E7%2Epdf&parent=%2Fsites%2FCCO%2FResources%2FSOP%2FTraining%20Delivery"
+                ],
+            "context_set": ""
+        },
+        {
+            "tag": "Q39",
+            "patterns": [
+            	"Attendance Tracking help",
+                "How to track attendace.",
+				"Attendance Tracking Tool (ATT).",
+				"How do I correctly input new hire attendance hours using the ATT? ",
+                "How do I correctly input new hire attendance hours using the Attendance Tracking Tool? ",
+                "How do I correctly track new hire attendance using ATT?",
+                "How do I correctly track new hire attendance using Attendance Tracking Tool?",
+                "How do I input time using ATT correctly for new hires in the training class? ",
+                "How do I input time using Attendance Tracking Tool correctly for new hires in the training class? ",
+                "How do I use ATT and put time in correctly?",
+                "How do I use the Attendance Tracking Tool and put time in correctly?",
+                "How is time missed during new hire training tracked in ATT?",
+                "How is time missed during new hire training tracked in the Attendance Tracking Tool?"
+            ],
+            "responses": [
+                "Access [SOP CC 67.0 Attendance Tracking Tool](https://maximus365.sharepoint.com/sites/CCO/Resources/SOP/Contact%20Center%20Operations/Forms/AllItems.aspx?viewpath=%2Fsites%2FCCO%2FResources%2FSOP%2FContact%20Center%20Operations%2FForms%2FAllItems%2Easpx&id=%2Fsites%2FCCO%2FResources%2FSOP%2FContact%20Center%20Operations%2FCC%5F67%2E0%5FAttendance%20Tracking%20Tool%5Fv3%2E1%2Epdf&parent=%2Fsites%2FCCO%2FResources%2FSOP%2FContact%20Center%20Operations). Hours accrued during New Hire Training do not follow trainees to production. Note each of your New Hire entries with #NH Training."
+            ],
+            "context_set": ""
+        },
+       
+        {
+            "tag": "Q41",
+            "patterns": [
+            	"Training milestones help",
+                "How to document Training milestones.",
+				"How do I document that I delivered a Training Milestone?",
+                "I need to coach a trainee who has missed during training.  What form do I fill out?",
+                "I need to deliver a training milestone.  Where can I find a template?",
+                "Where do I find a template for a Training Milestone?"
+            ],
+            "responses": [
+                "Access [SOP CC 67.0 Attendance Tracking Tool https://maximus365.sharepoint.com/sites/CCO/Resources/SOP/Contact%20Center%20Operations/Forms/AllItems.aspx?id=%2Fsites%2FCCO%2FResources%2FSOP%2FContact%20Center%20Operations%2FCC%5F67%2E0%5FAttendance%20Tracking%20Tool%5Fv3%2E3%2Epdf&parent=%2Fsites%2FCCO%2FResources%2FSOP%2FContact%20Center%20Operations Hours accrued during New Hire Training do not follow trainees to production. Note each of your New Hire entries with #NH Training."
+
+            ],
+            "context_set": ""
+        },
+        {
+            "tag": "Q42",
+            "patterns": [
+                "How to document eCoaching logs (eCLs).",
+				"eCoaching logs (eCLs).",
+				"How do I fill out an eCL?",
+                "tell me the best way to fill in an ecl?",
+                "how do i fill an ecl?",
+                "how can i fill out an ecl?"
+				"How do I fill out an eCoaching Log? ",
+                "how do i fill in an ecoaching log?",
+                "how do i fill out an ecoaching log?"
+            ],
+            "responses": [
+                "Access the eCoaching Log(https://maximus365.sharepoint.com/sites/CCO/Resources/eCoaching/default.aspx). Locate the CSR and fill out each field to include the behavior being coached and policy or SOP. Follow steps in CC SOP 30.0 eCoaching Log (https://maximus365.sharepoint.com/sites/CCO/Resources/SOP/Contact%20Center%20Operations/Forms/AllItems.aspx?viewpath=%2Fsites%2FCCO%2FResources%2FSOP%2FContact%20Center%20Operations%2FForms%2FAllItems%2Easpx&id=%2Fsites%2FCCO%2FResources%2FSOP%2FContact%20Center%20Operations%2FCC%5F30%2E0%5FeCoaching%5FLog%5Fv3%2E3%2Epdf&parent=%2Fsites%2FCCO%2FResources%2FSOP%2FContact%20Center%20Operations)."
+            ],
+            "context_set": ""
+        },
+        {
+            "tag": "Q44",
+            "patterns": [
+                "How to submit termination requests.",
+				"Termination requests."
+				"How do I fill out an urgent term request?",
+                "How do I fill out an urgent termination request? ",
+                "What are the steps to fill out a term request? ",
+                "What are the steps to filling out a termination request? "
+            ],
+            "responses": [
+                "Find template at CCO Training Delivery Trainer Resources Forms and Templates(https://maximus365.sharepoint.com/sites/CCO/Support/KSTP/CCO_Training_Delivery_Trainer_Resources/Forms%20and%20Templates/Forms/AllItems.aspx?viewpath=%2Fsites%2FCCO%2FSupport%2FKSTP%2FCCO_Training_Delivery_Trainer_Resources%2FForms%20and%20Templates%2FForms%2FAllItems.aspx). Using information recorded in your class DTR, fill out each section and email to your Training Manager for approval."
+
+            ],
+            "context_set": ""
+        },
+        {
+            "tag": "Q45",
+            "patterns": [
+                "How to record overtime and second shift hours. ",
+				"Overtime and second shift",
+				"How do I fill out my timecard for 2nd shift?",
+                "How do I fill out my timecard for after 7pm? ",
+                "How to record time in Deltek for 2nd shift?",
+                "How to record time in Deltek for second shift?",
+                "I have a night class. How do we record our 2nd shift time?",
+                "I have a night class. How do we record our second shift time?",
+                "What do I put on my Deltek timecard to record 2nd shift time? ",
+                "What do I put on my Deltek timecard to record after 7 shift time? ",
+                "What do I put on my Deltek timecard to record second shift time? "
+            ],
+            "responses": [
+                "Access the Job Aid [CCO Overtime and Second Shift Time Recording] (https://maximus365.sharepoint.com/sites/CCO/Connection/Policies/Forms/JobAids.aspx)."
+            ],
+            "context_set": ""
+        },
+        {
+            "tag": "Q47",
+            "patterns": [
+            	"Scores and certifications help",
+                "How to document scores and certifications",
+				"Scores and certifications",
+				"How do I fill out the scores and cert table in the DTR? ",
+                "How do I fill out the scores and certification tab on the Daily Training Report? ",
+                "What is required to complete the scores and certs in the Daily Training Report? ",
+                "What is required to complete the scores and certs in the DTR? ",
+                "What is the required information for the scores and certification on DTR?"
+            ],
+            "responses": [
+				"Scores are from the assessment results. Certification information includes who certifies the New Hire and if the New Hire passes.  Refer to the Daily Training Report (DTR) Process Manual https://maximus365.sharepoint.com/sites/CCO/Support/KSTP/CCO_Training_Delivery_Trainer_Resources/Forms%20and%20Templates/Forms/AllItems.aspx?id=%2Fsites%2FCCO%2FSupport%2FKSTP%2FCCO%5FTraining%5FDelivery%5FTrainer%5FResources%2FForms%20and%20Templates%2FDTR%27s%2FSample%20DTR&viewid=61d05af6%2D9c82%2D4e52%2Db24a%2D7ce50f778c19"
+            ],
+            "context_set": ""
+        },
+        {
+            "tag": "Q49",
+            "patterns": [
+            	"Candidate Recruiting and Operations Portal access",
+            	"CROP data for DTR access",
+            	"CROP data for Daily Training Report",
+                "How to access CROP data for Daily Training Report (DTR).",
+                "How do I get all the information for my class needed to fill out my Daily Training Report?",
+                "How do I get all the information for my class needed to fill out my DTR?",
+                "How do I pull information from CROP?",
+                "How do I pull information from the Candidate Recruitment & Onboarding Portal?",
+                "I need Candidate Recruiting and Operations Portal data for my class. Where do I find that?",
+                "I need CROP data for my class. Where do I find that?",
+                "What information from CROP do I need to fill out my Daily Training Report?",
+                "What information from CROP do I need to fill out my DTR?",
+                "Where can I find the CROP data for my class?",
+                "Where do I get the Candidate Recruiting and Operations Portal information for my class?",
+                "Where do I get the CROP information for my class?",
+                "Where do I pull my class information to fill out my Daily Training Report?"
+            ],
+            "responses": [
+                "Access [CROP Home](https://maximus365.sharepoint.com/sites/CCO/bi/CROP/SitePages/Home.aspx) and locate your Region. Locate [Administration](https://maximus365.sharepoint.com/sites/CCO/bi/CROP/SitePages/Administration.aspx) on the left hand side of the home page and then find [DTR Export](https://maximus365.sharepoint.com/sites/CCO/bi/CROP/Lists/theField/TrainingDTRExport.aspx) under [Export Views]. Export to Excel and then copy and paste to your DTR."
+            ],
+            "context_set": ""
+        },
+        {
+            "tag": "Q50",
+            "patterns": [
+                "How to add missing trainee to CROP",
+				"Adding trainees to CROP",
+				"How do I get my missing trainees added to CROP?",
+                "I need my participants added to Candidate Recruiting and Operations Portal. What do I do?",
+                "I need my participants added to CROP. What do I do?",
+                "I need my trainee added to CROP.",
+                "I need my trainees added to Candidate Recruiting and Operations Portal.",
+                "One of my new hires is missing from Candidate Recruiting and Operations Portal. What do I do?",
+                "One of my new hires is missing from CROP. What do I do?",
+                "One of my participants is missing from Candidate Recruiting and Operations Portal. What do I do?",
+                "One of my participants is missing from CROP. What do I do?",
+                "One of my trainees is missing from Candidate Recruiting and Operations Portal. What do I do?",
+                "One of my trainees is missing from CROP. What do I do?",
+                "Some of my participants are missing from Candidate Recruiting and Operations Portal. Can I get them added?",
+                "Some of my participants are missing from CROP. Can I get them added?",
+                "Some of my trainees are not in Candidate Recruiting and Operations Portal. Can I get them added?",
+                "Some of my trainees are not in CROP. Can I get them added?",
+                "What do I do if someone is missing from Candidate Recruiting and Operations Portal? ",
+                "What do I do if someone is missing from CROP? "
+            ],
+            "responses": [
+                "Refer to [Job Aid CROP_Training: Missing in CROP](https://maximus365.sharepoint.com/sites/CCO/bi/CROP/Shared%20Documents/Forms/AllItems.aspx?id=%2Fsites%2FCCO%2Fbi%2FCROP%2FShared%20Documents%2FTraining%5FMaterials%2FJob%20Aids%2FCCO%20Job%20Aid%20CROP%5FTraining%20%2D%20Missing%20in%20CROP%2005292019%5Fv1%2Epdf&parent=%2Fsites%2FCCO%2Fbi%2FCROP%2FShared%20Documents%2FTraining%5FMaterials%2FJob%20Aids&p=true&originalPath=aHR0cHM6Ly9tYXhpbXVzMzY1LnNoYXJlcG9pbnQuY29tLzpiOi9zL0NDTy9iaS9DUk9QL0ViZzJRZW05ZFBkSm54RjVBUTdTdV9rQmx4LWF1dTBRRFJsWnd5ZGh4X2xjdUE_cnRpbWU9VDVfT2tkeU0yRWc)."
+
+            ],
+            "context_set": ""
+        },
+        {
+            "tag": "Q51",
+            "patterns": [
+                "How to submit IT tickets.",
+				"IT tickets submit help",
+				"How do I know if I am submitting a ticket correctly and appropriately (IT, LSA, Maxnet, CCO Learning, etc.)?",
+                "How do I know what category to submit tickets on Cherwell? ",
+                "How do I know which category to create a ticket? ",
+                "How do I submit Tickets to IT?",
+                "How do submit a ticket?",
+                "How do we know if we're sending the correct ticket too IT\\LSA is there a reference material and if we can send tickets for trainees that can’t access outlook, or Maxnet for the first time?",
+                "How do you properly submit a ticket and what information is needed?",
+                "Is there a job aid to help in choosing categories for ticket submissions?",
+                "Is there a resource for us to use in choosing a category to submit a ticker through Cherwell? ",
+                "Ticket creation - We received a great 'how to' on creating tickets but can there be a reference material or SOP to know what falls under which category?",
+                "What category should I use for tickets to Local System Administrator? ",
+                "What category should I use to submit a ticket?",
+                "What ticket do I use when I submit a ticket to IT?",
+                "Where can I find the categories to submit tickets to IT/LSA? "
+            ],
+            "responses": [
+                "Refer to [Job Aid Locating CCO Ticket Categories_Maximus Federal Service Catalog](https://maximus365.sharepoint.com/sites/CCO/Connection/Policies/Forms/JobAids.aspx)."
+            ],
+            "context_set": ""
+        },
+        {
+            "tag": "Q52",
+            "patterns": [
+            	"Help with CUTS",
+                "How to find class information in CUTS.",
+				"Class information in CUTS.",
+				"How do I know if my class is virtual or on site?",
+                "How do I know when and where I am training a class?",
+                "How long is a Dual Medicare to Marketplace Class?",
+                "How long is a FFM New Hire Class?",
+                "How long is a Marketplace New Hire Class?",
+                "How long is a Medicare to Marketplace Class?",
+                "How long is a transfer to FFM Class? ",
+                "How long is a transfer to Gen Med Class? ",
+                "How long is a transfer to Marketplace Class? ",
+                "How long is a transfer to Medicare Class? ",
+                "How long is my class?",
+                "How many days does a Dual class last?",
+                "How many days does a Dual Medicare to Marketplace Class last?",
+                "How many days is a Dual Medicare class?",
+                "How many days is a Medicare New Hire Class?",
+                "How many days is Marketplace New Hire Class?",
+                "How will I know who I'm training with?",
+                "What is Current and Upcoming Training Schedule? ",
+                "What is CUTs?",
+                "Where do I find scheduled upcoming classes?",
+                "Where do I find the class ID number?",
+                "Where is my class ID?",
+                "Who is my co-instructor?",
+                "Who is my co-trainer?"
+            ],
+            "responses": [
+                "Refer to [Current and Upcoming Training Schedule](https://maximus365.sharepoint.com/sites/CCO/Support/KSTP/default.aspx)."
+            ],
+            "context_set": ""
+        },
+        {
+            "tag": "Q53",
+            "patterns": [
+            	"class preparation help",
+                "How to prepare for class",
+				"Preparation for class",
+				"How do I prepare for class?",
+                "I have a class coming up, what do I do now?",
+                "What do I do to get the floor or training area ready for class?",
+                "What do I do to get the training room ready for class?",
+                "What do I need for class?",
+                "What items do I need to train a class?",
+                "When preparing for class, what should I have?",
+                "Where can I find a class preparation checklist?"
+            ],
+            "responses": [
+                "Refer to TD 1.7 Preparation for Class https://maximus365.sharepoint.com/sites/CCO/Resources/SOP/Training%20Delivery/Forms/AllItems.aspx?viewpath=%2Fsites%2FCCO%2FResources%2FSOP%2FTraining%20Delivery%2FForms%2FAllItems%2Easpx"
+
+            ],
+            "context_set": ""
+        },
+        {
+            "tag": "Q55",
+            "patterns": [
+            	"view Level One results",
+                "How to view Level One results.",
+				"Level One results.",
+				"How do I pull my Level 1 results?",
+                "How do I pull my Level One results?"
+            ],
+            "responses": [
+                "Find your Level One results by accessing [Level 1 Trainer Reports](https://maximus365.sharepoint.com/sites/CCO/Support/KSTP/CCO_Training_Delivery_Trainer_Resources/SmileSheetsLevel1/WebPartPages/Level1Trainer.aspx)."
+
+            ],
+            "context_set": ""
+        },
+        {
+            "tag": "Q56",
+            "patterns": [
+                "How to submit termination requests.",
+				"Termination requests.",
+				"How do I request a term properly? ",
+                "How do I request a termination properly? ",
+                "What are the proper steps to start the process of terminating a new hire?",
+                "What are the steps to properly process a termination request?",
+                "What do I need to do to get the process started to terminate a trainee?",
+                "What forms do I need to fill out to fire a new hire trainee?",
+                "What forms do I need to fill out to separate a new hire trainee?",
+                "What forms do I need to fill out to terminate a new hire trainee?",
+                "What is the required information to properly request a separation?",
+                "What is the required information to properly request a term?",
+                "What is the required information to properly request a termination?",
+                "What were the proper steps to process a term request EDI form completion, etc.",
+                "What were the proper steps to process a term request EDI form completion?"
+            ],
+            "responses": [
+                "Complete the Urgent Term Request located in Forms and Templates on the CCO Training SharePoint (https://maximus365.sharepoint.com/sites/CCO/Support/KSTP/CCO_Training_Delivery_Trainer_Resources/Forms%20and%20Templates/Forms/AllItems.aspx?viewpath=%2Fsites%2FCCO%2FSupport%2FKSTP%2FCCO_Training_Delivery_Trainer_Resources%2FForms%20and%20Templates%2FForms%2FAllItems.aspx) consult with your Training Manager who will refer to [Human Capital Termination Standard Operating Procedure for Project Manager]."
+
+            ],
+            "context_set": ""
+        },
+        {
+            "tag": "Q57",
+            "patterns": [
+                "How to unlock Windows LAN accounts.",
+				"Unlocking Windows LAN accounts.",
+				"How do I resolve Windows access issues in my class?",
+                "How do I submit a ticket for LAN ID lockouts?",
+                "How do I submit a ticket to unlock a Windows account?",
+                "How do I submit a ticket when a trainee is locked out of their computer?",
+                "How do I unlock an ACD ID?",
+                "What should I do if my trainees are locked out of Windows?"
+            ],
+            "responses": [
+                "Access Trainer Help (https://maximus365.sharepoint.com/sites/CCO/Support/KSTP/CCO_Training_Delivery_Trainer_Resources/Help/default.aspx)."
+            ],
+            "context_set": ""
+        },
+        {
+            "tag": "Q58",
+            "patterns": [
+                "How to use WebEx for Virtual Training.", 
+				"WebEx Virtual Training.",
+				"How do I set up virtual training?",
+                "how do i do virtual training?",
+                "how do i set up virtual training?"
+            ],
+            "responses": [
+                "Access [WebEx Training Materials](https://trainingresources.ngd.local/MTKRSite/SubSites/LearningResources/CCOLearningandWebEx/index.htm)."
+            ],
+            "context_set": ""
+        },
+        {
+            "tag": "Q59",
+            "patterns": [
+                "How to submit IT tickets",
+				"IT tickets",
+				"How do I submit a reset password ticket correctly?",
+                "I forgot my password, what category should I submit the ticket under?",
+                "I need a password reset. Do I need to submit a ticket?",
+                "My trainee is locked out. How can I get them back into the computer?",
+                "What category of ticket should I submit for a password reset?",
+                "What ticket should I submit to reset a password?"
+            ],
+            "responses": [
+                "Access the and follow JobAid_LocatingCCOTicketCategories_MAXIMUSFederalServiceCatalog(https://maximus365.sharepoint.com/sites/CCO/Connection/Policies/Forms/JobAids.aspx)."
+
+            ],
+            "context_set": ""
+        },
+        {
+            "tag": "Q60",
+            "patterns": [
+                "How to resolve CCO access issues.",
+				"CCO Learning Access issues. ", 
+				"How do I submit a ticket to unlock a trainee's computer",
+                "One of my new hires cannot access CCO Learning.  What do I do?",
+                "One of my participants cannot access CCO Learning.  What do I do?",
+                "One of my trainees cannot access CCO Learning.  What do I do?",
+                "What is the Help Desk phone number?"
+            ],
+            "responses": [
+                "Refer to [IT Service Desk](https://itservicedesk.maximus.com/CherwellPortal/IT?_=422bffd2)."
+             ],
+            "context_set": ""
+        },
+        {
+            "tag": "Q61",
+            "patterns": [
+            	"which department we should reach out to",
+                "Cross functional support.",
+				"Interdepartmental support.", 
+				"How do we know what department to reach out to for different issues?",
+                "is there a good way to know which department we should reach out to?",
+                "how do i find the best department to reach out to?",
+                "how do you know which department to reach out to for an issue?"
+            ],
+            "responses": [
+                "Check with your Training Manager for assistance."
+            ],
+            "context_set": ""
+        },
+        {
+            "tag": "Q62",
+            "patterns": [
+            	"How to complete EDI",
+                "How to complete Employee Discharge Information",
+				"Employee Discharge Information (EDI) Form", 
+				"How do you properly fill out an EDI? What information is required?",
+                "How do you properly fill out Employee Discharge Information Form? ",
+                "What information is needed to fill out the EDI Form?",
+                "What information is needed to fill out the Employee Discharge Information Form?"
+            ],
+            "responses": [
+                "Consult with your Training Manager who will refer to [Human Capital Termination Standard Operating Procedure for Project Managers]."
+            ],
+            "context_set": ""
+        },
+        {
+            "tag": "Q63",
+            "patterns": [
+                "How to remove courses in CCO Learning.", 
+				"CCO Learning course removal.", 
+				"How do you remove curriculum from CCO Learning? ",
+                "How do you remove materials from a CCO Learning Plan?",
+                "I added the wrong materials for my class. How can I remove the material? ",
+                "The wrong curriculum was assigned to my class. ",
+                "The wrong materials were pushed out to my class. Can I remove these? "
+            ],
+            "responses": [
+                "Access CCO Learning-My Employees-Remove Learning from My Employees.  Then Select Management Action-Remove Items and curricula.  Click Next. Select Users - Click box under Select Users- Names will populate under 'List of Selected Users' Add Checked. Click Next. Search for Items and curriculum using key words or Exact Phrases. Locate the materials to remove and add checked. Click Next. Review for accuracy. Click Finish."
+            ],
+            "context_set": ""
+        },
+        {
+            "tag": "Q64",
+            "patterns": [
+               "How to complete Level One surveys.",
+				"How does my class complete Level 1's?",
+                "How does my class complete Level One's?",
+                "What are the steps for completing Level One Survey? ",
+                "What are the steps for completing the Level I Survey?"
+            ],
+            "responses": [
+                "Access Job Aid-Level One Submission(https://maximus365.sharepoint.com/sites/CCO/Connection/Policies/Forms/JobAids.aspx)."
+            ],
+            "context_set": ""
+        },
+        {
+            "tag": "Q65",
+            "patterns": [
+            	"Deltek timecard help",
+            	"complete Deltek timecard",
+                "How to complete Deltek timecard.", 
+				"How does my class complete their timecards?",
+                "How does my trainees fill out their timecard?"
+            ],
+            "responses": [
+                "Refer to Maximus Federal Procedures Contact Center 1.0 Standard Operating Procedure https://maximus365.sharepoint.com/sites/CCO/Connection/Policies/CC%201.0_Maximus%20Federal%20Procedures_v3.1.pdf"
+
+            ],
+            "context_set": ""
+        },
+        {
+            "tag": "Q66",
+            "patterns": [
+                "How to view Level One results.",
+				"Level One results.",
+				"How have I been doing as a Trainer?",
+                "How have I been doing as an Instructor?",
+                "Is there a place I can view my Level 1 Evaluations?",
+                "Is there a place I can view my Level One Evaluations?",
+                "Where can I find feedback from my trainees?",
+                "Where is my Level One Evals?",
+                "Where is my Level One's?"
+            ],
+            "responses": [
+                "Find your Level One results by accessing Level 1 Trainer Reports(https://maximus365.sharepoint.com/sites/CCO/Support/KSTP/CCO_Training_Delivery_Trainer_Resources/SmileSheetsLevel1/WebPartPages/Level1Trainer.aspx)."
+
+            ],
+            "context_set": ""
+        },
+        {
+            "tag": "Q67",
+            "patterns": [
+                "CAPA Information.", 
+				"How long does a CAPA stay on my record?",
+                "How long does a Corrective Action Preventative Action stay on my record?",
+				"What happens if I get a bad Level 1 score?",
+                "What happens if I get a bad Level One score?"
+            ],
+            "responses": [
+                "Refer to SOP TD 1.21.01 Instructor Responsibilities [Process TD 1.21.01.7 Working with Training Classes (https://maximus365.sharepoint.com/sites/CCO/Resources/SOP/Training%20Delivery/Forms/AllItems.aspx?viewpath=%2Fsites%2FCCO%2FResources%2FSOP%2F) Process TD 1.21.01.2: Training Core Curriculum Classes - Step 8 [First Offense: Corrective Action/Preventive Action CAPA."
+
+            ],
+            "context_set": ""
+        },
+        {
+            "tag": "Q68",
+            "patterns": [
+                "What is the final exam pass rate?", 
+				"Final exam pass rate.", 
+				"How many CSRs in my class have to pass the final assessment? ",
+                "How many CSRSs in my class have to pass the final exam?",
+                "How many participants in my class have to pass the final assessment? ",
+                "How many participants in my class have to pass the final exam?",
+                "How many trainees in my class have to pass the final assessment? ",
+                "How many trainees in my class have to pass the final exam?"
+            ],
+            "responses": [
+                "Refer to ISO Reference Material QEHS Service Level Agreements SLA(https://maximus365.sharepoint.com/sites/CCO/Resources/CAPA/ISO%20Card/Forms/AllItems.aspx)."
+            ],
+            "context_set": ""
+        },
+        {
+            "tag": "Q69",
+            "patterns": [
+                "What is the training attendance policy?",
+				"Training attendance policy.", 
+				"How many hours can a CSR miss while in training? ",
+                "How many hours can a new hire miss while in training? ",
+                "How many hours can a participant miss while in training? ",
+                "How many hours can a trainee miss while in training? ",
+                "What attendance policy does a new hire go by while they are in training? ",
+                "What attendance policy does a participant go by while they are in training? ",
+                "What attendance policy does a trainee go by while they are in training? ",
+                "What is the attendance policy for my class?",
+                "What is the Attendance Policy for new hires while they are in training? ",
+                "Where are the SOPs that outline the training attendance policy?",
+                "Where can I find the Attendance Policy for new hires in training?",
+				"How much time can a new hire trainee miss?",
+                "If a new hire misses, can I fire them?",
+                "If a participant misses, can I fire them?",
+                "If a trainee misses, can I fire them?",
+                "Should I term a new hire if they miss time in training?",
+                "Should I term a participant if they miss time in training?",
+                "Should I term a trainee if they miss time in training?",
+                "Should I terminate a new hire if they miss time in training?",
+                "Should I terminate a participant if they miss time in training?",
+                "Should I terminate a trainee if they miss time in training?",
+                "What if all my participants don't show up, what will I need to do?"
+            ],
+            "responses": [
+                "Refer to Attendance Policy-CCO Regular Service Employees(https://maximus365.sharepoint.com/sites/CCO/Connection/Policies/Forms/AllItems.aspx).  Also review: Attendance Policy CCO Limited Service Employees(https://maximus365.sharepoint.com/sites/CCO/Connection/Policies/Forms/AllItems.aspx)."
+                ],
+        },
+        {
+            "tag": "Q70",
+            "patterns": [
+                "Instructor observation requirements.",
+	            "Peer audit requirements.",
+                "How many instructor observations am I supposed to complete?",
+                "How many peer audits am I supposed to complete?",
+                "How many peer observations am I supposed to complete? ",
+                "Why do I have to complete an audit?",
+                "Why do I have to complete an observation?"
+            ],
+            "responses": [
+                "Refer to SOP TD 1.21.01 Trainer Responsibilities https://maximus365.sharepoint.com/sites/CCO/Resources/SOP/Training%20Delivery/Forms/AllItems.aspx?viewpath=%2Fsites%2FCCO%2FResources%2FSOP%2F&id=%2Fsites%2FCCO%2FResources%2FSOP%2FTraining%20Delivery%2FTD%201%2E21%2E02%5FTrainer%5FResponsibilities%5Fv1%2E2%2Epdf&parent=%2Fsites%2FCCO%2FResources%2FSOP%2FTraining%20Delivery"
+
+            ],
+            "context_set": ""
+        },
+        {
+            "tag": "Q71",
+            "patterns": [
+                "What are Level One survey guidelines?",
+	"Level One survey guidelines.", 
+"How many questions are in the Level 1 Evaluation?",
+                "How many questions are in the Level One Evaluation?",
+                "What is a Level 1 Evalution?",
+                "What is a Level One Evalution?",
+                "When do I have my class complete Level One Evaluations?",
+                "Who facilitates my class completing Level 1s?",
+                "Who facilitates my class completing Level Ones?",
+                "Why does my class have to complete a Level 1 on me?",
+                "Why does my class have to complete a Level One on me?"
+            ],
+            "responses": [
+                "Refer to SOP TD 1.3 Evaluation of Training Courses https://maximus365.sharepoint.com/sites/CCO/Resources/SOP/Training%20Delivery/Forms/AllItems.aspx?viewpath=%2Fsites%2FCCO%2FResources%2FSOP%2F&id=%2Fsites%2FCCO%2FResources%2FSOP%2FTraining%20Delivery%2FTD%201%2E3%5FEvaluation%5Fof%5FTraining%5FCourses%5Fv5%2E0%2Epdf&parent=%2Fsites%2FCCO%2FResources%2FSOP%2FTraining%20Delivery"
+
+            ],
+            "context_set": ""
+        },
+        {
+            "tag": "Q74",
+            "patterns": [
+                "What are new hire orientation guidelines?",
+				"New hire orientation guidelines.", 
+				"How much time should my CSRs spend on Day 0 and Day 1 courses?",
+                "How much time should my CSRs spend on Day Zero and Day One courses?",
+                "How much time should my New Hires spend on Day 0 and Day 1 courses?",
+                "How much time should my New Hires spend on Day Zero and Day One courses?",
+                "How much time should my participants spend on Day 0 and Day 1 courses?",
+                "How much time should my participants spend on Day Zero and Day One courses?",
+                "How much time should my trainees spend on Day 0 and Day 1 courses?",
+                "How much time should my trainees spend on Day Zero and Day One courses?",
+                "What is my class supposed to do the first day of Medicare new hire class?",
+                "What is the amount of time should my Medicare class spend completing compliance training?",
+                "Where can I find the agenda for Day Zero of Medicare?",
+                "Where can I find the handbook for the first two days of Medicare new hire?"
+            ],
+            "responses": [
+                "Refer to all Orientation and Day Zero Handbooks here: https://maximus365.sharepoint.com/sites/CCO/Resources/BCC-U/TngDev/Materials/Forms/AllItems.aspx?viewid=894ac228%2Df102%2D4786%2Db057%2D87b566bcf751&id=%2Fsites%2FCCO%2FResources%2FBCC%2DU%2FTngDev%2FMaterials%2FMedicare%20Day%20Zero%20materials%20%2D%20Marketplace%20Days%201%2C%202%2C%2010%20materials%2FDay%20Zero%20Handbooks"
+
+            ],
+            "context_set": ""
+        },
+        {
+            "tag": "Q75",
+            "patterns": [
+                "How to answer payroll and incentive questions.",
+				"Payroll and incentives.",
+				"How to address questions about payroll and incentives?",
+                "My class has questions about incentives and payroll? ",
+                "Where do I find answers to questions about incentives? ",
+				"How to answer any csr's incentive\\bonus questions?",
+                "Is there a place I can find FAQs for incentives? ",
+                "My class has questions about their incentives. ",
+                "What incentives will my new hire class receive? "
+
+            ],
+            "responses": [
+                "Payroll questions are to be emailed to [Payroll@Maximus.com]. For incentive questions, first access the FAQs on the CCO Incentives Program SharePoint site .(https://maximus365.sharepoint.com/sites/CCO/Resources/Incentives/SitePages/CCOIncentives.aspx). If answer is not located, the trainer should send the question via email to [CCO_Incentives@maximus.com]."
+
+            ],
+            "context_set": ""
+        },
+        {
+            "tag": "Q77",
+            "patterns": [
+                "What are new hire orientation guidelines?",
+				"New hire orientation guidelines.",
+				"How to arrange all day one essential tasks in a prioritized manner.",
+                "how do i arrange all day essential tasks in a prioritized manner?"
+            ],
+            "responses": [
+                "Refer to all Orientation and Day Zero Handbooks here: https://maximus365.sharepoint.com/sites/CCO/Resources/BCC-U/TngDev/Materials/Forms/AllItems.aspx?viewid=894ac228%2Df102%2D4786%2Db057%2D87b566bcf751&id=%2Fsites%2FCCO%2FResources%2FBCC%2DU%2FTngDev%2FMaterials%2FMedicare%20Day%20Zero%20materials%20%2D%20Marketplace%20Days%201%2C%202%2C%2010%20materials%2FDay%20Zero%20Handbooks"
+
+                ],
+            "context_set": ""
+        },
+        {
+            "tag": "Q78",
+            "patterns": [
+                "IT ticket prioritization.",
+                "fast track tickets help",
+                "how to fast track tickets",
+				"How to fast track tickets through Local Site Administrators?",
+                "How to fast track tickets through LSA?",
+                "I have been waiting a long time to have my ticket addressed by Local Site Adminstrator. Is there a way to have it prioritized? ",
+                "I have been waiting a long time to have my ticket addressed by LSA. Is there a way to have it prioritized? ",
+                "Is there a way to get my ticket addressed faster? ",
+                "My LSA ticket is a priority, how can I fast track it? "
+            ],
+            "responses": [
+                "The priority of the ticket submitted is chosen at the time it is submitted, the fastest priority will be given when there is a work stoppage. "
+            ],
+            "context_set": ""
+        },
+        {
+            "tag": "Q79",
+            "patterns": [
+            	"help with WebEx tech issues",
+                "WebEx and other technical issues.",
+				"How to properly deal with WebEx and Internet unexpected setbacks that occur throughout the day? ",
+                "how do i deal with unexpected internet issues while i'm still web-based?",
+                "how do i handle unexpected webex and internet setbacks?",
+                "tell me the best way to deal with unexpected setbacks with webex?"
+            ],
+            "responses": [
+                "Always have a back-up plan or contingency plan for unexpected technical difficulties such as hands on activities to reinforce the lesson.  Report WebEx Incidents by following the steps outlined in [SOP TD 20.0 WebEx Incident Reporting located (https://maximus365.sharepoint.com/sites/CCO/Resources/SOP/Training%20Delivery/Forms/AllItems.aspx?viewpath=%2Fsites%2FCCO%2FResources%2FSOP%2FTraining%20Delivery%2FForms%2FAllItems.aspx)"
+
+            ],
+            "context_set": ""
+        },
+        {
+            "tag": "Q80",
+            "patterns": [
+                "How to view IT ticket status.",
+	           "IT ticket status.",
+	           "IT ticket status help.",
+                "How to properly submit tickets and check the status of them or have a list of people we can reach out to regarding them.",
+                "How to properly submit tickets and check the status of them or have a list of people we can reach out to regarding them."
+            ],
+            "responses": [
+                "1. Go to IT Service Help Desk Cherwell(https://itservicedesk.maximus.com/CherwellPortal/IT?_=6c6a1b39) 2. Log in using your employee number and Outlook password. 3. Click My Tickets.   4. Find the ticket and see the status"
+
+            ],
+            "context_set": ""
+        },
+        {
+            "tag": "Q81",
+            "patterns": [
+                "Training agenda questions.",
+				"How to understand and follow the agenda for Day 1 and Day 2?",
+                "How to understand and follow the agenda for Day One and Day Two?",
+                "I am having trouble understanding the day 1 and 2 agendas.",
+                "I am having trouble understanding the day one and two agendas.",
+                "I have questions about the Day 1 and Day 2 agenda. ",
+                "I have questions about the Day One and Day Two agenda. ",
+                "I need assistance with completing the agenda on Day 1 and Day 2. ",
+                "I need assistance with completing the agenda on Day One and Day Two. "
+            ],
+            "responses": [
+                "For questions regarding the understanding of the agenda for Day 1 and Day 2, please consult with your Training Manager. "
+            ],
+            "context_set": ""
+        },
+        {
+            "tag": "Q82",
+            "patterns": [
+            	"time off request help",
+                "How to request time off.",
+				"Trainer time off requests.",
+				"I need a day off, how do I request a day off?",
+                "I am needing next Friday off, how do I request this day off?",
+                "I need to request time off.  What is the process?"
+            ],
+            "responses": [
+                "Add your request on your local Training SharePoint site's time off calendar. "
+            ],
+            "context_set": ""
+        },
+        {
+            "tag": "Q83",
+            "patterns": [
+            	"How Are trainees assigned to trainer",
+                "Are trainees assigned to trainer or co-trainer?",
+				"I am the co-instructor of a class. Will I have the co-instructor assigned to me? ",
+                "I am the co-trainer of a class. Will I have the trainees assigned to me? ",
+                "I am the trainer of a class with a co-trainer.  What is the difference? ",
+                "What is the difference between a trainer and co-trainer?"
+            ],
+            "responses": [
+                "The Trainer will have all trainees in the class assisned in CCO Learning and CROP. For additional questions of this nature please consult with your Training Manager. "
+            ],
+            "context_set": ""
+        },
+        {
+            "tag": "Q84",
+            "patterns": [
+            	"instructor observations form help.",
+                "Locating instructor observations form.",
+				"Instructor observation form.",
+				"I have just completed an instructor observation of my co-instructor. Where is the form?",
+                "I have just completed an instructor observation of my trainer. Where is the form?",
+                "I have just completed an observation of my co-instructor. Where is the form?",
+                "I have just completed an observation of my co-trainer. Where is the form?",
+                "What form do I use to complete a peer audit?",
+                "What form do I use to complete a peer instructor observation?",
+                "What form do I use to complete a peer IOF? ",
+                "What form do I use to complete a peer observation?"
+            ],
+            "responses": [
+                "Refer to CCO Instructor Observation Form](https://maximus365.sharepoint.com/sites/CCO/Support/KSTP/CCO_Training_Delivery_Trainer_Resources/IOF/SiteAssets/IOF.aspx)."
+
+            ],
+            "context_set": ""
+        },
+        {
+            "tag": "Q85",
+            "patterns": [
+            	"training material feedback help",
+                "Who reviews training material feedback?",
+				"Training material feedback.",
+				"I just submitted feedback on the training materials. Who reads my feedback? ",
+                "My class is completing the daily surveys. Who reviews these?",
+                "What is a Training Operations Lead?",
+                "Who receives the feedback when I complete a material review?"
+            ],
+            "responses": [
+                "Training Operations Leads (TOLs) are Training Managers who review feedback and reporting to improve materials and processes. "
+            ],
+            "context_set": ""
+        },
+        {
+            "tag": "Q87",
+            "patterns": [
+                "Where is the certification form?",
+				"Certification form.",
+				"I need a Call Cert form. Where do I find a form?",
+                "I need a Call Cert form. Where do I find a template?",
+                "I need a Call Certification form. Where do I find a form?",
+                "I need a Call Certification form. Where do I find a template?",
+                "What form do I use for call certification?",
+                "What form do I use to call certify a CSR?",
+                "What form do I use to call certify a new hire? ",
+                "Where do I find a Call Certification Form template?"
+            ],
+            "responses": [
+                "Find the Certification Form template on the CCO Training Delivery Trainer Resources Forms and Templates(https://maximus365.sharepoint.com/sites/CCO/Support/KSTP/CCO_Training_Delivery_Trainer_Resources/Forms%20and%20Templates/Forms/AllItems.aspx?viewpath=%2Fsites%2FCCO%2FSupport%2FKSTP%2FCCO_Training_Delivery_Trainer_Resources%2FForms%20and%20Templates%2FForms%2FAllItems.aspx)."
+
+            ],
+            "context_set": ""
+        },
+        {
+            "tag": "Q88",
+            "patterns": [
+                "What are icebreaker examples?",
+				"Icebreakers.",
+				"Help with Icebreakers.",
+				"I need some ideas for icebreakers. ",
+                "I want to do an icebreaker with my class. ",
+                "Send me some icebreakers to do with my class. ",
+                "What are some good icebreakers for my class?",
+                "Where can I find some icebreakers for my class? "
+            ],
+            "responses": [
+                "Try these while modifying when necessary to comply with Social Distancing Best Ice Breakers for Meetings and Training Class(https://www.thebalancecareers.com/best-ice-breakers-for-meetings-and-training-classes-1918430).  For additional guidance, contact your Training Manager or Training Development Manager."
+
+                ],
+            "context_set": ""
+        },
+        {
+            "tag": "Q89",
+            "patterns": [
+                "How to prepare for exam or assessment.",
+				"Exam preparation.",
+				"I need some ideas for review activities. ",
+                "Is there a daily review activity for my class? ",
+                "Is there a daily review I can do with my class? ",
+                "Is there specific items I should review with my class before the final assessment? ",
+                "Is there specific items I should review with my class before the final exam? ",
+                "We are getting ready for the final assessment. Is there Review Guide I can use? ",
+                "We are getting ready for the final exam. Is there Review Guide I can use? ",
+                "What do I find a daily review activity for my Gen Med? ",
+                "What do I find a daily review activity for my Medicare New Hire class? ",
+                "Where can I find a daily review activity for my Marketplace New Hire class? ",
+                "Where can I find the Review Guides for my class?",
+	   			"How to prepare for exam or assessment.",
+				"Exam preparation.",
+				"How do I prepare my class for the final assessment?",
+                "How do I prepare my class for the final exam?"
+
+            ],
+            "responses": [
+                "Refer to CCO Training Delivery Trainer Resources Review Guides(https://maximus365.sharepoint.com/sites/CCO/Support/KSTP/CCO_Training_Delivery_Trainer_Resources/Review%20Guides/Forms/AllItems.aspx)and choose Marketplace or Medicare folder. Also access “Your Role as a CCO Trainer – Assessment Preparation and Appeals (https://maximus365.sharepoint.com/sites/CCO/Support/KSTP/CCO_Training_Delivery_Trainer_Resources/2015%20Trainer%20Certification/Forms/AllItems.aspx) for more preparation guidance."
+
+            ],
+            "context_set": ""
+        },
+        {
+            "tag": "Q90",
+            "patterns": [
+                "Socially distanced activities.",
+	            "socially distanced ideas.",
+                "Is there a central SharePoint site for in-class (socially distanced) activities?",
+                "can you list the best sharepoint sites for social activities in a classroom?",
+                "is there a central sharepoint site for socially distanced activities in class?",
+                "is there a sharepoint site for socially distanced activities?",
+                "is there a sharepoint for in-class socially distanced activities?"
+            ],
+            "responses": [
+                "Refer to [Maximus Skill Building Activies](https://maximus365.sharepoint.com/sites/CCO/Support/KSTP/SBA/SitePages/Skill-Building-Activities.aspx)."
+],
+            "context_set": ""
+        },
+        {
+            "tag": "Q91",
+            "patterns": [
+                "What are classroom management guidelines?",
+	            "Classroom management guidelines.",
+				"Is there a checklist to use with the proper steps for classroom management?",
+                "What steps should I take to ensure proper classroom management?"
+            ],
+            "responses": [
+                "Follow steps outlined in TD SOP 1.21.01 Instructor Responsibilities Process TD 1.21.01.2 Training Core curriculum Classes located at https://maximus365.sharepoint.com/sites/CCO/Resources/SOP/Training%20Delivery/Forms/AllItems.aspx?viewpath=%2Fsites%2FCCO%2FResources%2FSOP%2F&id=%2Fsites%2FCCO%2FResources%2FSOP%2FTraining%20Delivery%2FTD%201%2E21%2E02%5FTrainer%5FResponsibilities%5Fv1%2E2%2Epdf&parent=%2Fsites%2FCCO%2FResources%2FSOP%2FTraining%20Delivery] and review [CCO 2021 IDEV Classroom Management Part 2: Leading the Classroom Effectively] (https://maximusinc.csod.com/ui/lms-learning-details/app/course/1e94a0c8-c9e0-4b76-9e45-f3fd9893a27b]"
+            ],
+            "context_set": ""
+        },
+        {
+            "tag": "Q92",
+            "patterns": [
+                "How to access Training SOPs.",
+				"Training SOPs.",
+				"help with Training SOPs access",
+				"Is there a place we can access Training SOPs?",
+                "Is there a place we can access Training Standard Operating Procedures?",
+                "Is there one place to find all the TD SOPs? ",
+                "Is there one place to find all the TD Standard Operating Procedures? ",
+                "Is there one place to find all the Training and Development SOPs? ",
+                "Is there one place to find all the Training and Development Standard Operating Procedures? ",
+                "Where can I find SOPs for Training? ",
+                "Where can we locate training delivery SOP's?"
+            ],
+            "responses": [
+                "Access [CCO Connection](https://maximus365.sharepoint.com/sites/CCO/Resources/SOP/Training%20Delivery/Forms/AllItems.aspx?viewpath=%2Fsites%2FCCO%2FResources%2FSOP%2FTraining%20Delivery%2FForms%2FAllItems.aspx)."
+            ],
+            "context_set": ""
+        },
+        {
+            "tag": "Q93",
+            "patterns": [
+            	"new hire orientation guidelines help",
+                "What are new hire orientation guidelines?",
+				"New hire orientation guidelines.",
+				"Is there an agenda for Day 1?",
+                "Is there an agenda for Day One?",
+                "What all do we need to do on Day 1?",
+                "What all do we need to do on Day One?",
+                "What are all the steps for the 1st day of class?",
+                "What are all the steps for the first day of class?",
+                "What do we do on Day 1?",
+                "What do we do on Day One?",
+                "What do we do on the 1 day of class?",
+                "What do we do on the 1 day of FFM class?",
+                "What do we do on the 1 day of Gen Med class?",
+                "What do we do on the 1 day of Marketplace class?",
+                "What do we do on the 1 day of Medicare class?",
+                "What do we do on the first day of class?",
+                "What do we do on the first day of FFM class?",
+                "What do we do on the first day of Gen Med class?",
+                "What do we do on the first day of Marketplace class?",
+                "What do we do on the first day of Medicare class?",
+                "What is my class supposed to do the 1st day of FFM new hire class?",
+                "What is my class supposed to do the 1st day of Gen Med new hire class?",
+                "What is my class supposed to do the 1st day of Marketplace new hire class?",
+                "What is my class supposed to do the 1st day of Medicare new hire class?",
+                "What is my class supposed to do the first day of FFM new hire class?",
+                "What is my class supposed to do the first day of Gen Med new hire class?",
+                "What is my class supposed to do the first day of Marketplace new hire class?",
+                "What is the agenda for Day Zero? ",
+                "Where can I find the agenda for Day One of Marketplace?",
+                "Where is the Day 0 Handbook?",
+                "Where is the Day 1 Handbook?",
+                "Where is the Day One Handbook?",
+                "Where is the Day Zero Handbook?"
+            ],
+            "responses": [
+                "Refer to all Orientation and Day Zero Handbooks here: https://maximus365.sharepoint.com/sites/CCO/Resources/BCC-U/TngDev/Materials/Forms/AllItems.aspx?viewid=894ac228%2Df102%2D4786%2Db057%2D87b566bcf751&id=%2Fsites%2FCCO%2FResources%2FBCC%2DU%2FTngDev%2FMaterials%2FMedicare%20Day%20Zero%20materials%20%2D%20Marketplace%20Days%201%2C%202%2C%2010%20materials%2FDay%20Zero%20Handbooks"
+
+                ],
+            "context_set": ""
+        },
+        {
+            "tag": "Q94",
+            "patterns": [
+                "How to access sample Daily Training Report (DTR)",
+				"Sample Daily Training Report (DTR)",
+				"Sample DTR",
+				"Is there an example of a Daily Training Report I can follow?",
+                "Is there an example of a DTR I can follow?",
+                "Where can I find a sample Daily Training Report?",
+                "Where can I find a sample DTR for new hire class?",
+                "Where can I find a sample DTR?"
+            ],
+            "responses": [
+                "Refer to OY5 Sample DTR(https://maximus365.sharepoint.com/:x:/r/sites/CCO/Support/KSTP/CCO_Training_Delivery_Trainer_Resources/_layouts/15/Doc.aspx?sourcedoc=%7B4E54AD35-BECD-4CE1-9337-A440252BFFC4%7D&file=OY5%20Sample%20DTR.xlsx&action=default&mobileredirect=true)."
+
+            ],
+            "context_set": ""
+        },
+        {
+            "tag": "Q95",
+            "patterns": [
+                "Trainee needs NGD production ID.",
+				"NGD Production IDs.",
+				"NGD Production IDs help",
+				"My participant does not have a production ID.  Do I submit a ticket?",
+                "should i send a ticket if i don't have a production id?",
+                "what if my participant is not logged in to my production id?",
+                "what can i do if a participant does not have a production id when submitting a ticket?"
+            ],
+            "responses": [
+                "Refer to Trainer Help(https://maximus365.sharepoint.com/sites/CCO/Support/KSTP/CCO_Training_Delivery_Trainer_Resources/Help/default.aspx)."
+
+            ],
+            "context_set": ""
+        },
+        {
+            "tag": "Q98",
+            "patterns": [
+                "What are instructor responsibilities?", 
+				"Instructor responsibilities.",
+				"What administrative duties should I complete daily?",
+                "Where can I find a list of delivery expectations for the classroom?",
+                "Where can I find an easy checklist of administrative expectations to use while training a class?"
+            ],
+            "responses": [
+                "Follow steps outlined in [TD SOP 1.21.01 Instructor Responsibilities Process TD 1.21.01.2 Training Core curriculum Classes] located at https://maximus365.sharepoint.com/sites/CCO/Resources/SOP/Training%20Delivery/Forms/AllItems.aspx?viewpath=%2Fsites%2FCCO%2FResources%2FSOP%2FTraining%20Delivery%2FForms%2FAllItems%2Easpx&id=%2Fsites%2FCCO%2FResources%2FSOP%2FTraining%20Delivery%2FTD%201%2E21%2E02%5FTrainer%5FResponsibilities%5Fv1%2E2%2Epdf&parent=%2Fsites%2FCCO%2FResources%2FSOP%2FTraining%20Delivery"
+
+            ],
+            "context_set": ""
+        },
+        {
+            "tag": "Q99",
+            "patterns": [
+                "How to handle trainee resignations.",
+				"Handling resignations.",
+				"Handling resignations help",
+				"What am I supposed to do when a CSR tells me they resign?",
+                "What am I supposed to do when a new hire tells me they resign?",
+                "What am I supposed to do when a participant tells me they resign?",
+                "What am I supposed to do when a trainee tells me they resign?",
+                "What should I do when a trainee tells me that they want to resign from the company?"
+            ],
+            "responses": [
+                "Ask the trainee to send their resignation to you via email with their reason such as they found another job. Ask the trainee to also complete and sign their timecard, go with them to their locker to ensure is clear and ready to reassign and escort them to the Security Post for them to turn in their badge to be deactivated.  Forward their resignation email to your Local Training Manager and let them know all the steps you were able to complete."
+            ],
+            "context_set": ""
+        },
+        {
+            "tag": "Q100",
+            "patterns": [
+            "What are Nesting POC responsibilities?",
+			"Nesting POC Responsibilities.",
+			"What are my expectations when I am a Nesting POC?",
+            "What are my expectations when I am a Nesting Point of Contact?",
+            "What are my expectations when I am assigned to Nesting?"
+            ],
+            "responses": [
+               "Refer to Virtual Nesting Program Guide on the CCO Nesting SharePoint site (https://maximus365.sharepoint.com/sites/CCO/Support/KSTP/CCO_Training_Delivery_Trainer_Resources/Nesting/SitePages/CCO_Nesting.aspx)"
+            ],
+            "context_set": ""
+        },
+        {
+            "tag": "Q101",
+            "patterns": [
+                "What are instructor responsibilities?", 
+				"Instructor responsibilities.",
+				"What are my expectations while I am training a class?",
+                "What are my responsibilities when I am not assigned to a class?",
+				"What are our expectations as a training team?",
+                "show the expectations for training staff?",
+                "what can be my expectation as a training team?"
+            ],
+            "responses": [
+                "Trainer Responsibilities are located in SOP 1.21.02 Trainer Responsibilities https://maximus365.sharepoint.com/sites/CCO/Resources/SOP/Training%20Delivery/Forms/AllItems.aspx?viewpath=%2Fsites%2FCCO%2FResources%2FSOP%2FTraining%20Delivery%2FForms%2FAllItems%2Easpx&id=%2Fsites%2FCCO%2FResources%2FSOP%2FTraining%20Delivery%2FTD%201%2E21%2E02%5FTrainer%5FResponsibilities%5Fv1%2E2%2Epdf&parent=%2Fsites%2FCCO%2FResources%2FSOP%2FTraining%20Delivery"
+
+            ],
+            "context_set": ""
+        },
+        {
+            "tag": "Q103",
+            "patterns": [
+                "Training agenda questions.",
+				"What are the main courses that need to be completed on Workday and MyLearning for Day 1, like mandatory?",
+                "What are the mandatory courses that need to be completed on Day One? ",
+                "What are the required courses to complete on Day 1? ",
+                "What are the required courses to complete on Day One? ",
+                "What courses need to be completed on Day 1?"
+            ],
+            "responses": [
+                "All agenda items in the Day 1 and Day 2 agenda are mandatory."
+            ],
+            "context_set": ""
+        },
+        {
+            "tag": "Q104",
+            "patterns": [
+                "What are the alias name guidelines?",
+				"Alias name guidelines.",
+				"help with Alias name guidelines",
+				"What are the requirements for picking an alias name?",
+                "Where can you find the rules/expectations for proper Alias names when getting Alias names from the agents in new hire training?"
+            ],
+            "responses": [
+                "Alias Name guidelines are located in TD SOP 1.21.02 Trainer Responsibilities. https://maximus365.sharepoint.com/sites/CCO/Resources/SOP/Training%20Delivery/Forms/AllItems.aspx?id=%2Fsites%2FCCO%2FResources%2FSOP%2FTraining%20Delivery%2FTD%201%2E21%2E02%5FTrainer%5FResponsibilities%5Fv1%2E2%2Epdf&parent=%2Fsites%2FCCO%2FResources%2FSOP%2FTraining%20Delivery"
+
+            ],
+            "context_set": ""
+        },
+        {
+            "tag": "Q105",
+            "patterns": [
+                 "How to handle trainee illness.",
+				 "Trainee illness.",
+				 "Trainee sick.",
+				 "help with Trainee illness.",
+				 "help with Trainee sickness.",
+                 "What are the steps when a trainee tells me that they are sick in class (COVID procedures)?",
+                 "What steps am I supposed to take when a trainee fails the Clear2Work Health Assessment?"
+            ],
+            "responses": [
+                "Notify your Local Training Manager immediately."
+            ],
+            "context_set": ""
+        },
+        {
+            "tag": "Q106",
+            "patterns": [
+                "What are the last day procedures?",
+				"Last day procedures.",
+				"What are we supposed to do on the final day of class?",
+                "What are we supposed to do on the last day of class",
+                "What end of training class duties are due to be completed on the last day of a new hire class?"
+            ],
+            "responses": [
+                "The Handbook for the final day of training is located at(https://maximus365.sharepoint.com/sites/CCO/Resources/BCC-U/TngDev/Materials/Forms/AllItems.aspx?RootFolder=%2Fsites%2FCCO%2FResources%2FBCC%2DU%2FTngDev%2FMaterials%2FMedicare%20Day%20Zero%20materials%20%2D%20Marketplace%20Days%201%2C%202%2C%2010%20materials&FolderCTID=0x01200048F7620D9C6D6449B86DA68CE1ED637C) and is housed in the folder matching your class’ Line of Business. In addition to completing this agenda, you will audit your DTR to ensure it is complete, complete and send the Class Confirmation and send SWP eligible ETO. Before the end of the last day of class, contact your Training Manager or the class POC to have your class complete their Level One Survey. "
+
+            ],
+            "context_set": ""
+        },
+        {
+            "tag": "Q107",
+            "patterns": [
+            	"attendance policy for trainers help",
+                "What is the attendance policy for trainers?",
+				"Trainer attendance policy.",
+				"attendance policy for trainers",
+				"What attendance policy am I responsible for as a instructor?",
+                "What attendance policy am I responsible for as a trainer?"
+            ],
+            "responses": [
+                "If you are a Limited Service Trainer, refer to [Attendance Policy -CCO Limited Service Employees](https://maximus365.sharepoint.com/sites/CCO/Connection/Policies/Forms/AllItems.aspx). If you are an RFT Trainer, refer to [Attendance Poilicy -CCO Regular Service Employees](https://maximus365.sharepoint.com/sites/CCO/Connection/Policies/Forms/AllItems.aspx)."
+            ],
+            "context_set": ""
+        },
+        {
+            "tag": "Q108",
+            "patterns": [
+            	"Instructor observation categories help",
+                "What are the instructor observation categories?",
+				"Instructor observation categories.",
+				"What do all the instructor observation catergories mean?",
+                "What do all the observation catergories mean?"
+            ],
+            "responses": [
+                "Refer to [IOF Question-Worksheet_07132017] https://maximus365.sharepoint.com/:x:/r/sites/CCO/Support/KSTP/CCO_Training_Delivery_Trainer_Resources/IOF/_layouts/15/Doc.aspx?sourcedoc=%7BCF786485-A349-4234-ABFC-51A0931105F6%7D&file=IOF%20Question-Worksheet_07132017.xlsx&action=default&mobileredirect=true)."
+
+            ],
+            "context_set": ""
+        },
+        {
+            "tag": "Q109",
+            "patterns": [
+                "What to include in trainee certification folder.",
+				"Certification folders.",
+				"What do I include in the trainee's folder?",
+                "What documents go in a CSR's certification folder?",
+                "What paperwork do I include in an employee's folder?"
+            ],
+            "responses": [
+                "Refer to CCO Training and Development Cover Sheet/CCO Training History Log https://maximus365.sharepoint.com/sites/CCO/Support/KSTP/CCO_Training_Delivery_Trainer_Resources/Forms%20and%20Templates/Forms/AllItems.aspx?viewpath=%2Fsites%2FCCO%2FSupport%2FKSTP%2FCCO_Training_Delivery_Trainer_Resources%2FForms+and+Templates%2FForms%2FAllItems.aspx&id=%2Fsites%2FCCO%2FSupport%2FKSTP%2FCCO_Training_Delivery_Trainer_Resources%2FForms+and+Templates%2FCCO+Training+and+Development+Coversheet+v2+2021.pdf&parent=%2Fsites%2FCCO%2FSupport%2FKSTP%2FCCO_Training_Delivery_Trainer_Resources%2FForms+and+Templates&isSPOFile=1&OR=Teams-HL&CT=1638472724302"
+
+            ],
+            "context_set": ""
+        },
+        {
+            "tag": "Q110",
+            "patterns": [
+                "Where is the certification form?",
+				"Certification form.",
+				"What form do I fill out for CSR Certification?",
+                "what is csr certification? how do i get it?",
+                "what are csr certification forms?",
+                "which forms should be completed to get csr certification?",
+                "tell me the formality for csr certification?"
+            ],
+            "responses": [
+                    "Refer to [CCO Certification](https://maximus365.sharepoint.com/sites/CCO/Support/KSTP/CCO_Training_Delivery_Trainer_Resources/Forms%20and%20Templates/Forms/AllItems.aspx?viewpath=%2Fsites%2FCCO%2FSupport%2FKSTP%2FCCO%5FTraining%5FDelivery%5FTrainer%5FResources%2FForms%20and%20Templates%2FForms%2FAllItems%2Easpx&id=%2Fsites%2FCCO%2FSupport%2FKSTP%2FCCO%5FTraining%5FDelivery%5FTrainer%5FResources%2FForms%20and%20Templates%2FCCO%20Certification%20Form%2Ev1%2Epdf&parent=%2Fsites%2FCCO%2FSupport%2FKSTP%2FCCO%5FTraining%5FDelivery%5FTrainer%5FResources%2FForms%20and%20Templates)."
+            ],
+            "context_set": ""
+        },
+        {
+            "tag": "Q111",
+            "patterns": [
+            	"Incomplete DTR help",
+            	"Incomplete DTR",
+            	"Incomplete Daily Training Report.",
+                "Incomplete Daily Training Report (DTR).",
+				"What happens if I forget to do the Daily Training Report every day?",
+                "What happens if I forget to do the DTR every day?"
+            ],
+            "responses": [
+                "Refer to SOP TD 1.21.02 Trainer Responsibilities Process https://maximus365.sharepoint.com/sites/CCO/Resources/SOP/Training%20Delivery/Forms/AllItems.aspx?viewpath=%2Fsites%2FCCO%2FResources%2FSOP%2FTraining%20Delivery%2FForms%2FAllItems%2Easpx&id=%2Fsites%2FCCO%2FResources%2FSOP%2FTraining%20Delivery%2FTD%201%2E21%2E02%5FTrainer%5FResponsibilities%5Fv1%2E2%2Epdf&parent=%2Fsites%2FCCO%2FResources%2FSOP%2FTraining%20Delivery Also refer to Performance Requirement. Failure to comply with expectations results in disciplinary action."
+
+            ],
+            "context_set": ""
+        },
+        {
+            "tag": "Q113",
+            "patterns": [
+            	"training milestones help?",
+                "What are the training milestones?",
+				"What is a Training Milestone?",
+                "tell me the training milestone?",
+                "what is a training milestone?"
+            ],
+            "responses": [
+                "Training Milestones are attendance notifications designed to make trainees aware of their missed or unexcused hours. Milestone forms and templates are located here (https://maximus365.sharepoint.com/sites/CCO/Support/KSTP/CCO_Training_Delivery_Trainer_Resources/Forms%20and%20Templates/Forms/AllItems.aspx?viewpath=%2Fsites%2FCCO%2FSupport%2FKSTP%2FCCO%5FTraining%5FDelivery%5FTrainer%5FResources%2FForms%20and%20Templates%2FForms%2FAllItems%2Easpx"
+                ],
+            "context_set": ""
+        },
+        {
+            "tag": "Q114",
+            "patterns": [
+            	"dealing with continegency",
+                "What is continegency help",
+				"What is contingency?",
+                "what is contingency? what are its terms?",
+                "what are contingencies?",
+                "Contingency?"
+            ],
+            "responses": [
+                "Contingency Level Plan1.4.01-This Standard Operating Procedure (SOP) describes the Contingency Level Plan procedures initiated when call volumes increase substantially within the Contact Center Operations (CCO) sites."
+            ],
+            "context_set": ""
+        },
+        {
+            "tag": "Q115",
+            "patterns": [
+            	"New hire orientation guidelines help",
+                "What are new hire orientation guidelines?",
+				"New hire orientation guidelines.",
+				"What is Day 0 of Medicare?",
+                "What is Day Zero of Medicare?"
+            ],
+            "responses": [
+                "Refer to Maximus New Hire Orientation and Day Zero Handbooks https://maximus365.sharepoint.com/sites/CCO/Resources/BCC-U/TngDev/Materials/Forms/AllItems.aspx?FolderCTID=0x01200048F7620D9C6D6449B86DA68CE1ED637C&id=%2Fsites%2FCCO%2FResources%2FBCC%2DU%2FTngDev%2FMaterials%2FMedicare%20Day%20Zero%20materials%20%2D%20Marketplace%20Days%201%2C%202%2C%2010%20materials%2FDay%20Zero%20Handbooks&viewid=894ac228%2Df102%2D4786%2Db057%2D87b566bcf751"
+
+            ],
+            "context_set": ""
+        },
+        {
+            "tag": "Q116",
+            "patterns": [
+                "What is the purpose of the Weekly Status Report (WSR)?",
+				"Weekly Status Report help",
+				"WSR help",
+				"What is done with the information in our Weekly Status Report?",
+                "What is done with the information in our WSR? ",
+                "What is the Weekly Status Report used for?",
+                "What is the WSR used for?"
+            ],
+            "responses": [
+                "To report local Training activities to the Training Leadership Team and CMS, including Instructor Observations, Phone Time and Certifications."
+            ],
+            "context_set": ""
+        },
+        {
+            "tag": "Q117",
+            "patterns": [
+            	"help with class POC responsibilities"
+            	"What are class POC responsibilities?",
+                "What are class point of contact responsibilities?",
+				"Class point of contact (POC) responsibilities.",
+				"What is expected as a class POC?",
+                "What is expected as a class Point of Contact?"
+            ],
+            "responses": [
+                "A class Point of Contact (POC) is expected to do adminstrative duties for the class including updating the DTR daily, perform wellness checks as necessary, file training folders, deliver missed moduals, deliver attendance milestones and train occasional lessons if needed."
+            ],
+            "context_set": ""
+        },
+        {
+            "tag": "Q118",
+            "patterns": [
+                "What are new hire orientation guidelines?",
+				"New hire orientation guidelines.",
+				"What is the amount of time should my Marketplace class spend completing compliance training?",
+                "tell me the time i should spend completing compliance training for marketplace?",
+                "how much time should i spend on compliance training?",
+                "how much time should a marketplace class have to complete compliance training?",
+                "what amount of time should a marketplace class spend on compliance training?"
+            ],
+            "responses": [
+                "Refer to Maximus New Hire Orientation and Day Zero Handbooks https://maximus365.sharepoint.com/sites/CCO/Resources/BCC-U/TngDev/Materials/Forms/AllItems.aspx?FolderCTID=0x01200048F7620D9C6D6449B86DA68CE1ED637C&id=%2Fsites%2FCCO%2FResources%2FBCC%2DU%2FTngDev%2FMaterials%2FMedicare%20Day%20Zero%20materials%20%2D%20Marketplace%20Days%201%2C%202%2C%2010%20materials%2FDay%20Zero%20Handbooks&viewid=894ac228%2Df102%2D4786%2Db057%2D87b566bcf751"
+
+            ],
+            "context_set": ""
+        },
+        {
+            "tag": "Q119",
+            "patterns": [
+                "What is the dress code?",
+				"Dress code.",
+				"Dress code help",
+				"What is the dress code for my class?  ",
+                "which dress code for my class is appropriate?",
+                "tell me the dress code for the class?",
+                "tell me the dress code for my class?",
+                "what is dress code for my class?"
+            ],
+            "responses": [
+                "Refer to CCO Dress Code(https://maximus365.sharepoint.com/sites/CCO/Connection/Policies/Forms/AllItems.aspx)."
+
+            ],
+            "context_set": ""
+        },
+        {
+            "tag": "Q121",
+            "patterns": [
+                "How to document eCoaching logs",
+				"eCoaching logs help",
+				"eCL help",
+				"delivering eCL help",
+				"What is the process for delivering an eCL to a trainee?",
+				"What is the process for delivering eCL",
+                "how do i prepare my trainee to do an ecl?",
+                "can you list the processes and timelines of giving eclcpl to a trainee?",
+                "how do you deliver ecl to a trainee?"
+            ],
+            "responses": [
+                "Please refer to the eCoaching Log Contact Center 30.0 Standard Operating Procedure document (https://maximus365.sharepoint.com/sites/CCO/Connection/Policies/CC_30.0_eCoaching_Log_v3.5.pdf) for the eCoaching process. In addition, contact your Training Manager for further guidance."
+                ],
+            "context_set": ""
+        },
+        {
+            "tag": "Q122",
+            "patterns": [
+            	"TAT help",
+                "What is the Training Applications Team (TAT)?",
+				"Training Applications Team (TAT).",
+				"What is the TAT team? ",
+                "What is the Training Applications Team team? "
+            ],
+            "responses": [
+                "The Training Applications Team (TAT) serves as the liaison for our network of customers regarding systems and training applications that are used to fulfill business needs and improve processes. TAT monitors data on items such as trainer performance, CSR certifications and proctor code changes. The TAT site is located here: https://maximus365.sharepoint.com/sites/CCO/Support/KSTP/TAT/default.aspx"
+
+            ],
+            "context_set": ""
+        },
+        {
+            "tag": "Q123",
+            "patterns": [
+            	"Level One surveys help",
+                "How to complete Level One surveys.",
+				"What Link do I send my class to complete Level 1s?",
+                "What Link do I send my class to complete Level Ones?",
+                "What site does my class go to complete a Level 1 Evaluation?",
+                "What site does my class go to complete a Level One Evaluation?"
+            ],
+            "responses": [
+                "Refer to Level One Entry CSR View(https://maximus365.sharepoint.com/sites/CCO/Support/KSTP/CCO_Training_Delivery_Trainer_Resources/SmileSheetsLevel1/WebPartPages/Level1Entry.aspx)."
+
+            ],
+            "context_set": ""
+        },
+        {
+            "tag": "Q124",
+            "patterns": [
+                "What are instructor responsibilities?", 
+				"Instructor responsibilities.",
+				"What Service Level Agreements am I responsible for when I train a class? ",
+                "What SLAs am I responsible for when I train a class?"
+            ],
+            "responses": [
+                "Trainer Responsibilities are located in SOP 1.21.02 Trainer Responsibilities https://maximus365.sharepoint.com/sites/CCO/Resources/SOP/Training%20Delivery/Forms/AllItems.aspx?viewpath=%2Fsites%2FCCO%2FResources%2FSOP%2FTraining%20Delivery%2FForms%2FAllItems%2Easpx&id=%2Fsites%2FCCO%2FResources%2FSOP%2FTraining%20Delivery%2FTD%201%2E21%2E02%5FTrainer%5FResponsibilities%5Fv1%2E2%2Epdf&parent=%2Fsites%2FCCO%2FResources%2FSOP%2FTraining%20Delivery"
+
+            ],
+            "context_set": ""
+        },
+        {
+            "tag": "Q125",
+            "patterns": [
+                "What is the training attendance policy? ",
+				"Training attendance policy. ",
+				"What should I do when a trainee goes over the time allowed to miss in Training?",
+                "Where can I find the checklist to use when a trainee goes over 8.0 hours of unplanned absence in class?"
+            ],
+            "responses": [
+                "Access Attendance Management Guidelines for Regular and Limited Service Employees (https://maximus365.sharepoint.com/sites/CCO/Connection/Policies/Forms/AllItems.aspx#InplviewHashba206e8f-6766-4eb4-9f23-98d2facdab7a="
+            ],
+            "context_set": ""
+        },
+        {
+            "tag": "Q128",
+            "patterns": [
+            	"instructor responsibilities help",
+                "What are instructor responsibilities?", 
+				"Instructor responsibilities.",
+				"What is the daily tracker?",
+                "how can i get track of my daily activity?",
+                "what's the daily tracker?"
+            ],
+            "responses": [
+                "Trainer Responsibilities are located in [SOP 1.21.02 Trainer Responsibilities] https://maximus365.sharepoint.com/sites/CCO/Resources/SOP/Training%20Delivery/Forms/AllItems.aspx?viewpath=%2Fsites%2FCCO%2FResources%2FSOP%2FTraining%20Delivery%2FForms%2FAllItems%2Easpx&id=%2Fsites%2FCCO%2FResources%2FSOP%2FTraining%20Delivery%2FTD%201%2E21%2E02%5FTrainer%5FResponsibilities%5Fv1%2E2%2Epdf&parent=%2Fsites%2FCCO%2FResources%2FSOP%2FTraining%20Delivery   "         
+
+            ],
+            "context_set": ""
+        },
+        {
+            "tag": "Q129",
+            "patterns": [
+            	"training completion info help",
+            	"training completion deadlines",
+            	"trainings need to be completed by when",
+                "When do all of the Maximus policies and procedure trainings need to be completed?",
+                "how many maximus trainings do you need to complete for the policies and procedures?"
+            ],
+            "responses": [
+                "Refer to Maximus New Hire Orientation and Day Zero Handbooks https://maximus365.sharepoint.com/sites/CCO/Resources/BCC-U/TngDev/Materials/Forms/AllItems.aspx?FolderCTID=0x01200048F7620D9C6D6449B86DA68CE1ED637C&id=%2Fsites%2FCCO%2FResources%2FBCC%2DU%2FTngDev%2FMaterials%2FMedicare%20Day%20Zero%20materials%20%2D%20Marketplace%20Days%201%2C%202%2C%2010%20materials%2FDay%20Zero%20Handbooks&viewid=894ac228%2Df102%2D4786%2Db057%2D87b566bcf751"
+
+            ],
+            "context_set": ""
+        },
+        {
+            "tag": "Q130",
+            "patterns": [
+                "How to locate trainee login information.",
+				"Trainee login information.",
+				"Trainee login information help",
+				"Where are my class rosters?",
+                "Where can I find a CSR's log in credentials?",
+                "Where can I find my class roster?",
+                "Where do I find my participant's ACD ID?",
+                "Where do I find my participant's employee number?",
+                "Where do I find my participant's LAN ID?",
+                "Where do I find my participant's PGS number?",
+                "Where do I find my trainee's ACD ID?",
+                "Where do I find my trainee's employee number?",
+                "Where do I find my trainee's LAN ID?",
+                "Where do I find my trainee's Next Generation Desktop Production ID?",
+                "Where do I find my trainee's NGD Production ID?",
+                "Where do I find my trainee's production ID?",
+                "Where do I find my trainee's username for Windows?",
+                "Where is my participant list?",
+                "Where is new hire's log in information?",
+                "Where is trainee's log in information?",
+                "Who is assigned to my class?"
+            ],
+            "responses": [
+                "Find Region at CROP CSR Recruitment & Onboarding Portal](https://maximus365.sharepoint.com/sites/CCO/bi/CROP/SitePages/Home.aspx).  Access Training-DTR Export."
+
+            ],
+            "context_set": ""
+        },
+        {
+            "tag": "Q131",
+            "patterns": [
+                "How to locate instructor and participant guides.",
+				"Instructor and participant guides.",
+				"instructor and participant guides help",
+				"Where are my instructor guides for Marketplace?",
+                "which are the instructor guides for marketplace?",
+				"Where are the participant guides for Medicare?",
+                "where can i find an entry list for medicare participants?",
+                "how do you get participant guides for medicare?",
+                "can you list the participant guides for medicare?",
+                "where are the participant guides for medicare?"
+	
+            ],
+            "responses": [
+                "Refer to Marketplace New Hire Instructor Guides https://trainingresources.ngd.local/MTKRSite/SubSites/NewHireTraining/Marketplace/NewHire/InstructorGuides/index.htm?ssSourceNodeId=872&ssSourceSiteId=MTKRSite).   Refer to Medicare New Hire Participant Guides(https://trainingresources.ngd.local/MTKRSite/SubSites/NewHireTraining/Medicare/MedicareEssentialsNewHireTraining/ParticipantGuides/index.htm?ssSourceNodeId=679&ssSourceSiteId=MTKRSite)"
+
+            ],
+            "context_set": ""
+        },
+        {
+            "tag": "Q132",
+            "patterns": [
+            	"instructor and participant guides help"
+                "How to locate instructor and participant guides.",
+				"Instructor and participant guides.",
+				"Where are my instructor guides for Medicare?",
+                "how do i get a best practice manual for medicare?",
+                "where can i find an instructional manual for medicare?"
+            ],
+            "responses": [
+                "Refer to Marketplace New Hire Instructor Guides https://trainingresources.ngd.local/MTKRSite/SubSites/NewHireTraining/Marketplace/NewHire/InstructorGuides/index.htm?ssSourceNodeId=872&ssSourceSiteId=MTKRSite).   Refer to Medicare New Hire Participant Guides (https://trainingresources.ngd.local/MTKRSite/SubSites/NewHireTraining/Medicare/MedicareEssentialsNewHireTraining/ParticipantGuides/index.htm?ssSourceNodeId=679&ssSourceSiteId=MTKRSite)"
+
+            ],
+            "context_set": ""
+        },
+        {
+            "tag": "Q136",
+            "patterns": [
+                "How to locate training SOPs",
+				"Training SOPs",
+				"Training SOPs help",
+				"Where can I find SOPs when dealing with classroom issues?",
+                "Where do I find Training SOPs?"
+            ],
+            "responses": [
+                "Training and Development SOPs are located here (https://maximus365.sharepoint.com/sites/CCO/Resources/SOP/default.aspx)."
+            ],
+            "context_set": ""
+        },
+        {
+            "tag": "Q137",
+            "patterns": [
+                "How to complete Daily Training Report (DTR).", 
+				"Where do I find a Daily Training Report Template?",
+                "Where do I find a DTR Template?",
+				"Where can I find a Daily Training Report template to download? ",
+                "Where can I find a DTR Template? ",
+                "Where can we download a new DTR template for new hire classes and nesting?",
+                "Where is the Daily Training Report template that I can download",
+                "Where is the Daily Training Report template? ",
+                "Where is the DTR template that I can download",
+            ],
+            "responses": [
+                "Refer to [New Hire (DTR)_Template_MAXIMUS_09022020(https://maximus365.sharepoint.com/:x:/r/sites/CCO/Support/KSTP/CCO_Training_Delivery_Trainer_Resources/_layouts/15/Doc.aspx?sourcedoc=%7B1532938E-814B-4DD4-8054-D4629B870D74%7D&file=New%20Hire%20(DTR)_Template_MAXIMUS_09022020.xlsx&action=default&mobileredirect=true)."
+
+            ],
+            "context_set": ""
+        },
+        {
+            "tag": "Q138",
+            "patterns": [
+                "How to locate compliance training.",
+				"Compliance training.",
+				"Where do I find compliance training my class needs to complete?",
+                "which are the best training materials for compliance certification?",
+                "where can i get more information about compliance?",
+                "where can i get help with compliance training?",
+                "where can i get necessary compliance training for my class?",
+                "what is a requirement for a compliance training for a business class?"
+            ],
+            "responses": [
+                "Refer to [Learning-Workday](https://wd5.myworkday.com/maximus/d/inst/13102!CK5mGhIKBggDEMenAhIICgYI1A0QpQE~/cacheable-task/2997$16598.htmld#backheader=true)."
+
+            ],
+            "context_set": ""
+        },
+        {
+            "tag": "Q139",
+            "patterns": [
+            	"How to prep for assessment",
+            	"How to prep for exam",
+                "How to prepare for exam or assessment.",
+				"Exam preparation.",
+				"Exam preparation help",
+				"Where do I find Review Guides to use for my Marketplace class to review week 1 of Marketplace training?",
+                "Where do I find Review Guides to use for my Marketplace class to review week one of Marketplace training?"
+            ],
+            "responses": [
+                 "Refer to CCO Training Delivery Trainer Resources Review Guides(https://maximus365.sharepoint.com/sites/CCO/Support/KSTP/CCO_Training_Delivery_Trainer_Resources/Review%20Guides/Forms/AllItems.aspx) and choose Marketplace or Medicare folder.  Also access “Your Role as a CCO Trainer – Assessment Preparation and Appeals (https://maximus365.sharepoint.com/sites/CCO/Support/KSTP/CCO_Training_Delivery_Trainer_Resources/2015%20Trainer%20Certification/Forms/AllItems.aspx) for more preparation guidance."
+
+            ],
+            "context_set": ""
+        },
+        {
+            "tag": "Q144",
+            "patterns": [
+                "Locating daily surveys.",
+				"Daily surveys.",
+				"Daily surveys help",
+				"Where does my class find the daily surveys?",
+                "where can i find the daily surveys and assignments in my class?"
+            ],
+            "responses": [
+                "Refer to myLearning(CSOD)(https://maximusinc.csod.com/LMS/catalog/Welcome.aspx?tab_page_id=-67&tab_id=-1)"
+
+            ],
+            "context_set": ""
+        },
+        {
+            "tag": "Q145",
+            "patterns": [
+            	"termination procedure?",
+            	"termination procedure help",
+                "What is the termination procedure?",
+				"Where is the SOP or Policy outlining the termination steps?",
+                "Where is the Standard Operating Procedure or Policy outlining the termination steps?"
+            ],
+            "responses": [
+                "Complete the Urgent Term Request located in Forms and Templates on the CCO Training SharePoint (https://maximus365.sharepoint.com/sites/CCO/Support/KSTP/CCO_Training_Delivery_Trainer_Resources/Forms%20and%20Templates/Forms/AllItems.aspx?viewpath=%2Fsites%2FCCO%2FSupport%2FKSTP%2FCCO_Training_Delivery_Trainer_Resources%2FForms%20and%20Templates%2FForms%2FAllItems.aspx) and consult with your Training Manager who will refer to [Human Capital Termination Standard Operating Procedure for Project Manager]."
+            ],
+            "context_set": ""
+        },
+        {
+            "tag": "Q146",
+            "patterns": [
+            	"trainee folders help",
+            	"Who receives class folders?",
+            	"class folders help",
+                "Who receives trainee folders?",
+				"Who gets the class folders after certification?",
+                "Who gets the trainee's folders after certification?"
+            ],
+            "responses": [
+                "The Training Coordinator or Class Point of Contact to file."
+            ],
+            "context_set": ""
+        }
+    ]
+}

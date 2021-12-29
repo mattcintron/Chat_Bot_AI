@@ -1,0 +1,2 @@
+model_checkpoint_path: "/api/notebooks/model_data/model.tflearn"
+all_model_checkpoint_paths: "/api/notebooks/model_data/model.tflearn"

@@ -1,0 +1,2 @@
+model_checkpoint_path: "/api/flaskMain/Scripts/notebooks/model_data/model.tflearn"
+all_model_checkpoint_paths: "/api/flaskMain/Scripts/notebooks/model_data/model.tflearn"

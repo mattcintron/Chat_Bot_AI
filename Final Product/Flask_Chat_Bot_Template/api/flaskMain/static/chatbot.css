@@ -1,0 +1,122 @@
+.chatbox {
+    box-shadow: 10px 10px 5px #a9a9a9;
+    border-radius: 0.75em;
+}
+
+.chatbot-section {
+    background-color: #f6f6f6;
+    padding: 1em;
+    border-bottom-left-radius: 0.75em;
+    border-bottom-right-radius: 0.75em;
+    margin-bottom: 5em;
+}
+
+.chatbot-title {
+    border-bottom: 1px solid black;
+    font-size: 20px;
+    text-align:center;
+    padding: 1em;
+    border-top-left-radius: 0.75em;
+    border-top-right-radius: 0.75em;
+    background-color: #5d5d5d;
+    color: #ffffff;
+}
+
+.user-question, .bot-answer {
+    position: relative;
+    border-radius: .4em;
+    overflow:visible;
+    padding: 1em;
+    margin-top: 1.5em;
+    width: fit-content;
+    animation: slide-up 0.5s ease;
+}
+
+.user-question {
+    background: #96D294;
+}
+
+.bot-answer {
+    background: #ADD8E6;
+    text-align: right;
+    float:right;
+}
+  
+.user-question:after {
+    content: '';
+	position: absolute;
+	top: 0;
+	left: 15%;
+	width: 0;
+	height: 0;
+	border: 1.031em solid transparent;
+	border-bottom-color: #96D294;
+	border-top: 0;
+	border-left: 0;
+	margin-left: -0.312em;
+	margin-top: -0.625em;
+}
+
+  
+.bot-answer:after {
+    content: '';
+	position: absolute;
+	top: 0;
+	right: 15%;
+	width: 0;
+	height: 0;
+	border: 1.031em solid transparent;
+	border-bottom-color: #ADD8E6;
+	border-top: 0;
+	border-right: 0;
+	margin-left: -0.312em;
+	margin-top: -0.625em;
+}
+
+.bot-metadata {
+    text-align: right;
+}
+
+@keyframes blur-in {
+    0% {
+      visibility: hidden;
+      opacity: 0;
+      max-height: 0px;
+      margin: 0;
+      padding: 0;
+      transform: scale(1);
+    }
+    1% {
+      padding: 5px;
+      margin: 3px;
+      visibility: visible;
+    }
+    80% {
+      opacity: 1;
+      transform: scale(1.02);
+    }
+
+    100% { 
+      max-height: 170px;
+      transform: scale(1); }
+  }
+
+  @keyframes slide-up {
+    0% {
+        opacity: 0;
+        transform: translateY(20px);
+    }
+    100% {
+        opacity: 1;
+        transform: translateY(0);
+    }
+}
+
+.led-green {
+    display: inline-block;
+    width: 12px;
+    height: 12px;
+    background-color: #690;
+    border-radius: 50%;
+    margin-left: 0.5em;
+}

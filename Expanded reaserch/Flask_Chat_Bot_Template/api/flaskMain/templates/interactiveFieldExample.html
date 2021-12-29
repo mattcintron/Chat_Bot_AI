@@ -1,0 +1,87 @@
+{% extends "layout.html" %}
+{% block content %}
+        <article class="media content-section">
+          <div class="media-body">
+            <div class="article-metadata">
+              <a class="mr-2" href="#">Flask Site Admin</a>
+              <small class="text-muted">Last Updated 8/9/2020</small>
+            </div>
+            <h2><a class="article-title" href="#">Simple Interactive AI Chat Bot</a></h2>
+            <p class="article-content">Here we have a simple interactive feild example enter text and it is sent out to the chat bot
+            : full content coming soon</p>
+          </div>
+        </article>
+    <br/>
+    <br/>
+    <div class ='content section'>
+         <form method = "POST" action="">
+                {{form.hidden_tag()}}
+                <fieldset class=form-group">
+                    <legend class="border-bottom mb-4">Try Out the Chat Bot here</legend>
+                     <div class ="form-group">
+                        {{form.MW.label(class="form-control-label")}}
+                        {% if form.MW.errors %}
+                            {{form.MW(class="form-control form-control-lg is-invalid")}}
+                            <div class="invalid-feedback">
+                                {%for error in form.MW.errors %}
+                                    <span>{{error}}</span>
+                                {%endfor%}
+                            </div>
+                         {%else%}
+                            {{form.MW(class="form-control form-control-lg")}}
+                         {%endif%}
+                    </div>
+                </fieldset>
+                <div class ="form-group">
+                    {{form.submit(class="btn btn-outline-info")}}
+                </div>
+         </form>
+     </div>
+     <br/>
+     <br/>
+     {% if content == 'Please type a question to send me lets start a chat'%}
+     <article class="media content-section">
+      <div class="media-body">
+        <div class="article-metadata">
+          <a class="mr-2" href="#">AI/ML Chat Bot </a>
+          <small class="text-muted">chat master 1.001</small>
+        </div>
+        <p class="article-content">{{content}} </p>
+      </div>
+    </article>
+    {% endif %}
+
+    <div class="chatbox">
+    <div class="chatbot-title">ChatBot Support<span class='led-green' /></div>
+    <div class="chatbot-section">
+      
+    {% for i in range(0,q|length) %}
+
+    <article class="media content-section">
+    <div class="media-body">
+      <div class="article-metadata">
+        <a class="mr-2" href="#">User Question  </a>
+        <small class="text-muted">question number {{i}}</small>
+      </div>
+      <p class="article-content user-question">{{q[i]}} </p>
+    </div>
+  </article>
+
+  <article class="media content-section">
+    <div class="media-body">
+      <div class="article-metadata bot-metadata">
+        <a class="mr-2" href="#">AI/ML Chat Bot </a>
+        <small class="text-muted">chat master 1.001</small>
+      </div>
+      <p class="article-content bot-answer">{{a[i]}} </p>
+    </div>
+  </article>
+
+  {%endfor%}
+
+</div>
+</div>
+
+
+
+{% endblock content %}
